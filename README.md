@@ -1,4 +1,4 @@
-** In development - please be aware there may be bugs!! **
+** League Manager **
 
 The boilerplate structure is based off the tutorial used here:
 https://www.freecodecamp.org/news/create-a-react-frontend-a-node-express-backend-and-connect-them-together-c5798926047c/
