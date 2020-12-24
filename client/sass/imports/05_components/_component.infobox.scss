@@ -1,0 +1,74 @@
+/* ======================================== */
+/* =                                      = */
+/*   Content cards in page blocks           */
+/* =                                      = */
+/* ======================================== */
+
+.c-infobox {
+
+  @include for-size(phone-only) {
+      width: 63vw;
+    }
+  &:nth-child(1) {
+    //float: left!important;
+  }
+  &:nth-child(2) {
+    //float: right!important;
+  }
+  .c-infobox__listing {
+    display: flex;
+    justify-content: space-between;
+    height: 37px;
+    color: $greyish_brown;
+    font-family: FuturaPTDemi;
+    font-size: 1em;
+    font-weight: 500;
+
+    @include for-size(phone-only) {
+      margin-bottom: 0.5em;
+    }
+    img {
+      width: 20px;
+      height: 20px;
+      margin-right: 15px;
+    }
+    &--left {
+      align-items: center;
+      display: flex;
+      margin-left: 8px;
+      @include for-size(phone-only) {
+        max-width: 8em;
+        margin-left: 0px;
+      }
+    }
+    &--right {
+      align-items: center;
+      display: flex;
+      font-family: FuturaPTMedium;
+      font-size: 1em;
+      @include for-size(phone-only) {
+        max-width: 8em;
+        margin-left: 0.42em;
+        text-align: right;
+        font-size: 1em;
+      }
+    }
+  }
+  &--small {
+    h3 {
+      font-family: "FuturaPTMedium";
+      font-size: 1.5em;
+      font-weight: 300;
+    }
+    h5 {
+      font-family: "FuturaPTBold";
+      font-weight: 700;
+      font-size: 1em;
+    }
+    img {
+      float: left;
+      margin-right: 30px;
+      margin-top: 10px;
+    }
+  }
+}

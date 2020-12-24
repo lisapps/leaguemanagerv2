@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 59.1 (101010) - https://sketch.com -->
+    <title>EE5BABE4-FE45-446B-9F81-E8F2AE870C31</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <linearGradient x1="18%" y1="84.2668806%" x2="73.21875%" y2="0%" id="linearGradient-1">
+            <stop stop-color="#FFD51D" offset="0%"></stop>
+            <stop stop-color="#F7981F" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="82%" y1="100%" x2="18%" y2="2.13601879%" id="linearGradient-2">
+            <stop stop-color="#FFD521" offset="0%"></stop>
+            <stop stop-color="#FFEC42" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="0%" y1="84.2668806%" x2="2419.48242%" y2="84.2668806%" id="linearGradient-3">
+            <stop stop-color="#4A4A4A" offset="0%"></stop>
+            <stop stop-color="#F7981F" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Concepts-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Create-Location-Blank" transform="translate(-360.000000, -503.000000)">
+            <g id="bar/line_item_selected" transform="translate(344.000000, 496.000000)">
+                <g id="Group" transform="translate(16.000000, 3.500000)">
+                    <g id="icon/court" transform="translate(0.000000, 3.000000)">
+                        <polygon id="Rectangle" fill="url(#linearGradient-1)" transform="translate(10.000000, 11.312500) rotate(-180.000000) translate(-10.000000, -11.312500) " points="3.75 3.5 16.25 3.5 16.25 19.125 3.75 19.125"></polygon>
+                        <polygon id="Rectangle" fill="url(#linearGradient-2)" transform="translate(10.000000, 11.312500) rotate(-180.000000) translate(-10.000000, -11.312500) " points="3.75 3.5 16.25 3.5 16.25 19.125 10 11.3125"></polygon>
+                        <path d="M10,5.0625 C10.172589,5.0625 10.3125,5.20241102 10.3125,5.375 L10.3125,17.25 C10.3125,17.422589 10.172589,17.5625 10,17.5625 C9.82741102,17.5625 9.6875,17.422589 9.6875,17.25 L9.6875,5.375 C9.6875,5.20241102 9.82741102,5.0625 10,5.0625 Z" id="Rectangle" fill="#4A4A4A" transform="translate(10.000000, 11.312500) rotate(-90.000000) translate(-10.000000, -11.312500) "></path>
+                        <rect id="Rectangle" fill="url(#linearGradient-3)" x="2.5" y="7.25" width="1" height="1"></rect>
+                        <rect id="Rectangle" fill="url(#linearGradient-3)" x="16.875" y="7.25" width="1" height="1"></rect>
+                        <rect id="Rectangle" fill="url(#linearGradient-3)" x="2.5" y="14.75" width="1" height="1"></rect>
+                        <rect id="Rectangle" fill="url(#linearGradient-3)" x="16.875" y="14.75" width="1" height="1"></rect>
+                        <rect id="Rectangle" fill="#D8D8D8" x="3.75" y="7.25" width="12.5" height="1"></rect>
+                        <rect id="Rectangle" fill="#D8D8D8" x="3.75" y="14.75" width="12.5" height="1"></rect>
+                        <polygon id="Rectangle" fill="#FFFFFF" transform="translate(4.687500, 7.562500) rotate(-270.000000) translate(-4.687500, -7.562500) " points="4.375 7.25 5 7.25 5 7.875 4.375 7.875"></polygon>
+                        <polygon id="Rectangle" fill="#FFFFFF" transform="translate(15.312500, 15.062500) rotate(-270.000000) translate(-15.312500, -15.062500) " points="15 14.75 15.625 14.75 15.625 15.375 15 15.375"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

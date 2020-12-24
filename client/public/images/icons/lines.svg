@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 59.1 (101010) - https://sketch.com -->
+    <title>A3893F72-9BF9-4B14-8D85-F0BB62DDF0F8</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <linearGradient x1="49.5%" y1="84.2668806%" x2="50.362793%" y2="0%" id="linearGradient-1">
+            <stop stop-color="#FFD51D" offset="0%"></stop>
+            <stop stop-color="#F7981F" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="100%" y1="51.0204082%" x2="0%" y2="49.0231841%" id="linearGradient-2">
+            <stop stop-color="#FFD521" offset="0%"></stop>
+            <stop stop-color="#FFEC42" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Concepts-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Create-Location-Blank" transform="translate(-360.000000, -539.000000)">
+            <g id="bar/line_item_selected" transform="translate(344.000000, 532.000000)">
+                <g id="Group" transform="translate(16.000000, 3.500000)">
+                    <g id="icon/lines" transform="translate(0.000000, 3.000000)">
+                        <g id="Group" transform="translate(10.000000, 11.312500) rotate(-45.000000) translate(-10.000000, -11.312500) translate(3.750000, 6.312500)">
+                            <path d="M6.25,-0.9375 C6.59517797,-0.9375 6.875,-0.657677969 6.875,-0.3125 L6.875,10.9375 C6.875,11.282678 6.59517797,11.5625 6.25,11.5625 C5.90482203,11.5625 5.625,11.282678 5.625,10.9375 L5.625,-0.3125 C5.625,-0.657677969 5.90482203,-0.9375 6.25,-0.9375 Z" id="Rectangle" fill="url(#linearGradient-1)" transform="translate(6.250000, 5.312500) rotate(-90.000000) translate(-6.250000, -5.312500) "></path>
+                            <rect id="Rectangle" fill="url(#linearGradient-2)" x="1.875" y="0.3125" width="8.75" height="1.25" rx="0.625"></rect>
+                            <rect id="Rectangle" fill="url(#linearGradient-2)" x="1.875" y="8.4375" width="8.75" height="1.25" rx="0.625"></rect>
+                        </g>
+                        <rect id="Rectangle" fill="#D8D8D8" x="15.625" y="9.75" width="1" height="1"></rect>
+                        <rect id="Rectangle" fill="#D8D8D8" x="3.75" y="12.25" width="1" height="1"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

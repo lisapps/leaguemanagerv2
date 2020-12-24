@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>icon/attack</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="0%" y1="100%" x2="100%" y2="0%" id="linearGradient-1">
+            <stop stop-color="#FFD51D" offset="0%"></stop>
+            <stop stop-color="#F7981F" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="100%" y1="100%" x2="0%" y2="2.13601879%" id="linearGradient-2">
+            <stop stop-color="#FFD521" offset="0%"></stop>
+            <stop stop-color="#FFEC42" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="icon/attack" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M8.70195207,17.7865068 L16.7865068,17.7865068 C17.8910763,17.7865068 18.7865068,18.6819373 18.7865068,19.7865068 C18.7865068,20.8910763 17.8910763,21.7865068 16.7865068,21.7865068 L8.70195207,21.7865068 L8.70195207,23.8083346 C8.70195207,24.3485642 8.26400943,24.7865068 7.7237798,24.7865068 L7.45992187,24.7865068 C6.99800111,24.7865068 6.55032063,24.6266146 6.19291426,24.333986 L1.58001927,20.5571512 C1.1526947,20.2072767 1.08990901,19.5772324 1.4397835,19.1499078 C1.48191847,19.0984456 1.52908249,19.0513154 1.58057491,19.0092174 L6.19321615,15.2381185 C6.55045087,14.9460586 6.99768467,14.7865068 7.45911249,14.7865068 L7.7237798,14.7865068 C8.26400943,14.7865068 8.70195207,15.2244495 8.70195207,15.7646791 L8.70195207,17.7865068 Z" id="Combined-Shape" fill="url(#linearGradient-1)" transform="translate(10.000000, 19.786507) rotate(-270.000000) translate(-10.000000, -19.786507) "></path>
+        <rect id="Rectangle" fill="url(#linearGradient-2)" x="5" y="5" width="22" height="4"></rect>
+        <rect id="Rectangle" fill="#FFFFFF" transform="translate(6.500000, 17.500000) rotate(-270.000000) translate(-6.500000, -17.500000) " x="6" y="17" width="1" height="1"></rect>
+        <path d="M20.7019521,17.7865068 L28.7865068,17.7865068 C29.8910763,17.7865068 30.7865068,18.6819373 30.7865068,19.7865068 C30.7865068,20.8910763 29.8910763,21.7865068 28.7865068,21.7865068 L20.7019521,21.7865068 L20.7019521,23.8083346 C20.7019521,24.3485642 20.2640094,24.7865068 19.7237798,24.7865068 L19.4599219,24.7865068 C18.9980011,24.7865068 18.5503206,24.6266146 18.1929143,24.333986 L13.5800193,20.5571512 C13.1526947,20.2072767 13.089909,19.5772324 13.4397835,19.1499078 C13.4819185,19.0984456 13.5290825,19.0513154 13.5805749,19.0092174 L18.1932162,15.2381185 C18.5504509,14.9460586 18.9976847,14.7865068 19.4591125,14.7865068 L19.7237798,14.7865068 C20.2640094,14.7865068 20.7019521,15.2244495 20.7019521,15.7646791 L20.7019521,17.7865068 Z" id="Combined-Shape" fill="url(#linearGradient-1)" transform="translate(22.000000, 19.786507) rotate(-270.000000) translate(-22.000000, -19.786507) "></path>
+        <rect id="Rectangle" fill="#FFFFFF" transform="translate(18.500000, 17.500000) rotate(-270.000000) translate(-18.500000, -17.500000) " x="18" y="17" width="1" height="1"></rect>
+        <rect id="Rectangle" fill="#4A4A4A" x="26" y="5" width="1" height="5"></rect>
+        <rect id="Rectangle" fill="#4A4A4A" x="5" y="5" width="1" height="5"></rect>
+    </g>
+</svg>

@@ -1,0 +1,136 @@
+/* ======================================== */
+/* =                                      = */
+/*   Modal content component - manager table     */
+/* =                                      = */
+/* ======================================== */
+
+.c-managerTable__header {
+  padding-left: 5px;
+  height: 31px;
+  color: $greyish_brown;
+  font-family: FuturaPTBold;
+  font-size: 1em;
+  font-weight: bold;
+  line-height: 2.5em;
+  border-bottom: 1px solid $very_light-pink;
+  display: flex;
+  flex-flow: row;
+
+  .c-managerTable__header__item {
+    width: 160px;
+  }
+}
+
+.c-managerTable {
+  max-width: 55em;
+  margin-bottom: 21px;
+
+  .c-managerTable__listing__empty {
+    @include menu_text;
+    padding: 35px 0;
+    text-align: center;
+  }
+
+  .c-managerTable__listing {
+    height: 48px;
+    color: $greyish_brown;
+    font-family: FuturaPTDemi;
+    font-size: 1em;
+    font-weight: 500;
+    display: flex;
+    padding: 12px 0 0 15px;
+
+    img {
+      width: 24px;
+      height: 24px;
+      vertical-align: middle;
+      margin-right: 12px;
+    }
+
+    .c-managerTable__listing__item {
+      width: 160px;
+      display: flex;
+      line-height: 24px;
+      color: $greyish_brown;
+      font-family: FuturaPTDemi;
+      font-size: 1em;
+      font-weight: 500;
+      padding: 0 8px 0 0;
+      white-space: nowrap;
+      overflow: hidden;
+
+      svg {
+        /* padding-top: 2px; */
+      }
+
+      button.e-btn__remind,
+      button.e-btn__remove,
+      button.e-btn__add {
+        padding: 1px 38.5px;
+        height: 24px;
+        width: 156px;
+      }
+
+      // .e-btn__add--admLeague {
+      //   margin-left: 13px;
+      // }
+    }
+
+    &--large {
+      width: 230px;
+    }
+  }
+//   .c-managerTable__listing__item:first-of-type {
+//     &:hover {
+//     cursor: pointer;
+//     img {
+//       border: 2px solid $sun_yellow;
+//     }
+
+//     .c-managerTable__cell {
+//       color: black;
+//       text-decoration: underline $sun_yellow;
+//     }
+// }
+// }
+  .c-managerTable__listing__item:last-of-type {
+    width: 100%;
+    max-width: 300px;
+    padding: 0 10px 0 0;
+    display: flex;
+    justify-content: flex-end;
+
+    .c-managerTable__listing__cell {
+      color: $greyish_brown;
+      font-family: FuturaPTDemi;
+      font-size: 1em;
+      font-weight: 500;
+    }
+  }
+}
+
+.c-managerTable.loading {
+  max-width: 832px;
+  width: 78.5vw;
+  margin-bottom: 39px;
+
+  .c-managerTable__header {
+    height: 31px;
+    color: $brown_grey;
+    font-family: FuturaPTBold;
+    font-size: 1em;
+    font-weight: bold;
+    line-height: 2.5em;
+    border-bottom: 1px solid $very_light-pink;
+    display: flex;
+    flex-flow: row;
+
+    .c-managerTable__header__item {
+      width: 180px;
+    }
+
+    .c-managerTable__header__item:last-of-type {
+      width: 180px;
+    }
+  }
+}

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 59.1 (101010) - https://sketch.com -->
+    <title>88F70BD0-1763-474A-8F8D-7B618B5B85D5</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <linearGradient x1="100%" y1="58.3244169%" x2="0%" y2="42.0312053%" id="linearGradient-1">
+            <stop stop-color="#FFD521" offset="0%"></stop>
+            <stop stop-color="#FFEC42" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="0%" y1="49.5867769%" x2="100%" y2="50.4132231%" id="linearGradient-2">
+            <stop stop-color="#FFD51D" offset="0%"></stop>
+            <stop stop-color="#F7981F" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="11.8697206%" y1="84.2668806%" x2="77.6667945%" y2="0%" id="linearGradient-3">
+            <stop stop-color="#FFD51D" offset="0%"></stop>
+            <stop stop-color="#F7981F" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Concepts-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Create-Location-Blank" transform="translate(-360.000000, -431.000000)">
+            <g id="bar/line_item_selected" transform="translate(344.000000, 424.000000)">
+                <g id="Group" transform="translate(16.000000, 3.500000)">
+                    <g id="icon/sand" transform="translate(0.000000, 3.000000)">
+                        <rect id="Rectangle" fill="#4A4A4A" transform="translate(9.687500, 10.375000) rotate(-360.000000) translate(-9.687500, -10.375000) " x="9.375" y="4.125" width="1" height="12.5" rx="0.5"></rect>
+                        <path d="M3.125,13.5148216 C8.45741536,13.485235 6.63664692,16.2987385 10.0106836,16.4609966 C13.3847203,16.6232547 13.053783,14.5318459 16.8582835,14.5104428 C16.8758072,16.0104406 16.8795535,17.5486264 16.8695224,19.125 L3.125,19.125 C3.125,16.57684 3.125,14.7067805 3.125,13.5148216 Z" id="Rectangle" fill="url(#linearGradient-1)"></path>
+                        <polygon id="Rectangle" fill="url(#linearGradient-2)" transform="translate(10.000000, 18.500000) rotate(-180.000000) translate(-10.000000, -18.500000) " points="3.125 17.875 16.875 17.875 16.875 19.125 3.13624339 19.125"></polygon>
+                        <polygon id="Rectangle" fill="#FFFFFF" transform="translate(14.687500, 15.687500) rotate(-270.000000) translate(-14.687500, -15.687500) " points="14.375 15.375 15 15.375 15 16 14.375 16"></polygon>
+                        <polygon id="Rectangle" fill="#D8D8D8" transform="translate(14.687500, 18.812500) rotate(-270.000000) translate(-14.687500, -18.812500) " points="14.375 18.5 15 18.5 15 19.125 14.375 19.125"></polygon>
+                        <polygon id="Rectangle" fill="#D8D8D8" transform="translate(4.687500, 18.187500) rotate(-270.000000) translate(-4.687500, -18.187500) " points="4.375 17.875 5 17.875 5 18.5 4.375 18.5"></polygon>
+                        <polygon id="Triangle" fill="url(#linearGradient-3)" transform="translate(12.500000, 6.625000) rotate(-270.000000) translate(-12.500000, -6.625000) " points="12.2149303 4.125 14.6831823 9.125 10.3168177 9.125"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

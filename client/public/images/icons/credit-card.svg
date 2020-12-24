@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="21px" viewBox="0 0 20 21" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 59.1 (101010) - https://sketch.com -->
+    <title>82CA1F15-7860-48A0-8645-402B2111A9E6</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <linearGradient x1="0%" y1="28.6755519%" x2="100%" y2="71.3244481%" id="linearGradient-1">
+            <stop stop-color="#FFEC43" offset="0%"></stop>
+            <stop stop-color="#FFD420" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="0%" y1="71.3244481%" x2="98.2704118%" y2="29.4132021%" id="linearGradient-2">
+            <stop stop-color="#FFD51D" offset="0%"></stop>
+            <stop stop-color="#F7981F" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Concepts-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Create-League-Division-view-" transform="translate(-360.000000, -337.000000)">
+            <g id="bar/line_item" transform="translate(344.000000, 330.000000)">
+                <g id="Group" transform="translate(16.000000, 3.500000)">
+                    <g id="icon/credit_card" transform="translate(0.000000, 3.000000)">
+                        <g id="Group" transform="translate(1.250000, 3.500000)">
+                            <rect id="Rectangle" fill="url(#linearGradient-1)" x="2.1875" y="0" width="15.3125" height="10" rx="1"></rect>
+                            <rect id="Rectangle" fill="url(#linearGradient-2)" x="0" y="5" width="15.3125" height="10" rx="1"></rect>
+                            <rect id="Rectangle" fill="#D8D8D8" x="10.390625" y="6.11111111" width="3.28125" height="2.22222222" rx="1"></rect>
+                            <rect id="Rectangle" fill="#D8D8D8" x="1.09375" y="6.11111111" width="3.28125" height="1"></rect>
+                            <rect id="Rectangle" fill="#D8D8D8" x="1.09375" y="7.77777778" width="2.1875" height="1.11111111"></rect>
+                            <polygon id="Rectangle" fill="#FFFFFF" points="1.875 12.5 3.75961304 12.5 3.75961304 13.1365585 1.875 13.1365585"></polygon>
+                            <rect id="Rectangle" fill="#FFFFFF" x="11.25" y="12.5" width="1.875" height="1"></rect>
+                            <polygon id="Rectangle" fill="#FFFFFF" points="5.625 12.5 6.88480377 12.5 6.88480377 13.1400299 5.625 13.1400299"></polygon>
+                            <rect id="Rectangle" fill="#FFFFFF" x="8.75" y="12.5" width="1.25" height="1"></rect>
+                            <rect id="Rectangle" fill="#4A4A4A" x="2.1875" y="1.66666667" width="15.3125" height="1.66666667"></rect>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

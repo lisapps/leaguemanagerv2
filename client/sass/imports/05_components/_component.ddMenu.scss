@@ -1,0 +1,184 @@
+/* ======================================== */
+/* =                                      = */
+/*   Drop Down Menu Component               */
+/* =                                      = */
+/* ======================================== */
+
+.c-ddMenu {
+  background-color: $white;
+  border-radius: 12px;
+  @include menu_active_text;
+  min-width: 142px;
+}
+
+.e-customSelect__select {
+  border: none;
+  background-color: transparent;
+  width: 158px;
+  @include style-4_text;
+  @include transition(all, 0.25s, ease-out);
+  line-height: 2.57em;
+  margin-right: 2.57em;
+  position: relative;
+  cursor: pointer;
+
+  &::before {
+    position: absolute;
+    right: -1.15em;
+    top: 10px;
+    width: 1.15em;
+    height: auto;
+    content: url(../public/images/icons/icon-tri-top.svg);
+    z-index: 2;
+    visibility: hidden;
+    z-index: 3;
+  }
+
+  &.show::before {
+    visibility: visible;
+  }
+
+  &--form {
+    &::after {
+      content: url(../public/images/icons/chevron-down.svg);
+      position: absolute;
+      width: 0.9em;
+      height: auto;
+      /* top: 0px; */
+      cursor: pointer;
+      @include transition(all, 0.25s, ease-out);
+    }
+
+    .e-input__selectItem {
+      cursor: pointer;
+      list-style: none;
+      line-height: 1em;
+      color: black;
+      padding: 0.75em 0.9em;
+      margin: 1em 0;
+      text-decoration: none;
+      display: block;
+
+      &:hover {
+        background-color: $very_light-pink;
+
+        &.selected {
+          background-color: transparent;
+        }
+      }
+    }
+    span {
+      margin-right: 0.83em;
+    }
+  }
+  
+
+.e-customSelect__select--form.disabled span {
+    color: #ccc;
+    opacity: 0.35 !important;
+    cursor: default;
+}
+
+  &--dots {
+    &.e-customSelect__select::before {
+      top: 0px;
+    }
+
+    &::after {
+      content: "";
+      background: url("../public/images/edit-dots-lg.svg");
+      position: absolute;
+      top: -1em;
+      width: 17px;
+      height: 17px;
+      /* top: 0px; */
+      cursor: pointer;
+      @include transition(all, 0.25s, ease-out);
+    }
+    &:hover:after {
+      content: "";
+      background: url("../public/images/edit-dots.svg");
+      position: absolute;
+      filter: brightness(90%) contrast(97%);
+    }
+
+    .e-input__selectItem {
+      cursor: pointer;
+      list-style: none;
+      line-height: 1em;
+      color: black;
+      text-align: left;
+      padding: 0.75em 0.9em;
+      margin: 1em 0;
+      text-decoration: none;
+      display: block;
+
+      &:hover {
+        background-color: $very_light-pink;
+
+        &.selected {
+          background-color: transparent;
+        }
+      }
+
+      &--delete {
+        color: $red-pink;
+      }
+    }
+  }
+
+  /* &:focus::after {
+    transform: rotate(180deg);
+    top: 14px;
+  } */
+}
+
+.e-input__selectItem {
+  cursor: pointer;
+  list-style: none;
+  line-height: 1em;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+
+  &:hover {
+    background-color: $very_light-pink;
+
+    &.selected {
+      background-color: transparent;
+    }
+  }
+}
+
+// styling for menu bg is in ddMenu.scss
+.e-input__selectionMenu {
+  margin-top: 30px;
+  padding: 0px 5px;
+  right: -30px;
+  position: absolute;
+  // visibility: hidden;
+  list-style: none;
+  max-height: 19em;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  border: 0.5px solid $very_light-pink;
+  z-index: 2;
+  &::-webkit-scrollbar-track {
+    margin: 10px 0;
+  }
+}
+
+.e-customSelect__select--dots {
+  width: auto;
+  /* padding-bottom: 30px; */
+  cursor: unset;
+
+  .e-input__selectItem {
+    padding: 0.5em 1.3em;
+  }
+
+  & > .e-input__selectionMenu {
+    margin-top: 20px;
+  }
+}

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>icon/bucket</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="0%" y1="100%" x2="106.982422%" y2="-7.93927225%" id="linearGradient-1">
+            <stop stop-color="#FFD51D" offset="0%"></stop>
+            <stop stop-color="#F7981F" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="0%" y1="100%" x2="100%" y2="0%" id="linearGradient-2">
+            <stop stop-color="#FFD51D" offset="0%"></stop>
+            <stop stop-color="#F7981F" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="2.13601879%" x2="50%" y2="100%" id="linearGradient-3">
+            <stop stop-color="#FFD521" offset="0%"></stop>
+            <stop stop-color="#FFEC42" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="icon/bucket" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group" transform="translate(2.000000, 7.000000)">
+            <polygon id="Rectangle" fill="url(#linearGradient-1)" points="2.11764706 5.55555556 18.8823529 5.55555556 16.5394338 20 4.56639804 20"></polygon>
+            <rect id="Rectangle" fill="#FFFFFF" x="14.4117647" y="6.66666667" width="2.23529412" height="2.22222222"></rect>
+            <path d="M6.3773577,16.1443489 L6.3795671,16.1945603 L6.93785042,15.6111713 L6.35497832,15.6111713 L5.89938244,5.25716688 C5.8999663,5.2704357 5.8896831,5.28166551 5.87641428,5.28224936 L5.87535712,5.28227261 C5.88880644,5.28227261 5.89987163,5.29286162 5.90046285,5.30629793 L6.35389687,15.6111713 L5.82020336,15.6111713 L6.3773577,16.1443489 Z" id="Rectangle" stroke="#D8D8D8" stroke-width="1.11764706" fill="#D8D8D8" transform="translate(6.139211, 10.446722) rotate(-300.000000) translate(-6.139211, -10.446722) "></path>
+            <path d="M5.73888083,0.0330209572 C7.36522856,-0.10312233 7.46751027,1.06730944 10.5,0.818830974 C13.5324897,0.570352506 12.8747856,0.336929169 15.3154969,0.0330209572 C16.9426377,-0.169584518 18.1315897,0.560149237 18.8823529,2.22222222 L2.11764706,2.22222222 C3.44757109,0.853516904 4.65464901,0.123783149 5.73888083,0.0330209572 Z" id="Rectangle" fill="#D8D8D8"></path>
+            <rect id="Rectangle" fill="url(#linearGradient-2)" x="1" y="2.22222222" width="19" height="2.22222222"></rect>
+        </g>
+        <g id="Group-2" transform="translate(22.000000, 5.000000)">
+            <path d="M1.2,10.8 L4.8,10.8 C5.4627417,10.8 6,11.3372583 6,12 L6,18 L0,18 L0,12 C-8.11624501e-17,11.3372583 0.5372583,10.8 1.2,10.8 Z" id="Rectangle" fill="url(#linearGradient-3)"></path>
+            <rect id="Rectangle" fill="url(#linearGradient-3)" x="2.4" y="2.4" width="1.2" height="9.6"></rect>
+            <rect id="Rectangle" stroke="#FFD31D" stroke-width="1.2" fill="#4A4A4A" x="1.8" y="0.6" width="2.4" height="2.4"></rect>
+        </g>
+        <path d="M15.9819367,26.2769932 C16.9913247,26.2769932 16.5345586,26.0502151 17.9971693,26.0021147 C18.9722432,25.9700477 19.6398534,26.3026762 20,27 L14,27 C14.6483657,26.5179955 15.3090113,26.2769932 15.9819367,26.2769932 Z" id="Rectangle" fill="#D8D8D8"></path>
+    </g>
+</svg>

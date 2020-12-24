@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>icon/phone</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="2.13601879%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#FFD521" offset="0%"></stop>
+            <stop stop-color="#FFEC42" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="-7.04101562%" y1="0%" x2="100%" y2="100%" id="linearGradient-2">
+            <stop stop-color="#FFD51D" offset="0%"></stop>
+            <stop stop-color="#F7981F" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="icon/phone" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group" transform="translate(10.000000, 3.000000)">
+            <path d="M2.60141173,0 L2.60141173,0 C3.31860223,-1.31745757e-16 3.9,0.581397773 3.9,1.29858827 L3.9,6.42857143 L1.3,6.42857143 L1.30225311,1.29858815 C1.30256814,0.581305476 1.88412899,1.31762702e-16 2.60141173,0 Z" id="Rectangle" fill="url(#linearGradient-1)"></path>
+            <rect id="Rectangle" fill="url(#linearGradient-2)" x="0" y="3.85714286" width="13" height="23.1428571" rx="2"></rect>
+            <polygon id="Rectangle" fill="url(#linearGradient-1)" transform="translate(6.500000, 10.285714) rotate(-90.000000) translate(-6.500000, -10.285714) " points="3.93415629 5.08571429 9.07142857 5.08571429 9.07142857 15.4857143 3.92857143 15.4857143"></polygon>
+            <polygon id="Rectangle" fill="#D8D8D8" transform="translate(6.500000, 5.785714) rotate(-270.000000) translate(-6.500000, -5.785714) " points="5.85714286 3.18571429 7.14285714 3.18571429 7.14285714 8.38571429 5.85714286 8.38571429"></polygon>
+            <rect id="Rectangle" stroke="#FFFFFF" stroke-width="1.3" x="1.95" y="16.0785714" width="1.3" height="1"></rect>
+            <rect id="Rectangle" stroke="#FFFFFF" stroke-width="1.3" x="5.85" y="16.0785714" width="1.3" height="1"></rect>
+            <rect id="Rectangle" stroke="#FFFFFF" stroke-width="1.3" x="9.75" y="16.0785714" width="1.3" height="1"></rect>
+            <rect id="Rectangle" stroke="#FFFFFF" stroke-width="1.3" x="1.95" y="19.9357143" width="1.3" height="1"></rect>
+            <rect id="Rectangle" stroke="#FFFFFF" stroke-width="1.3" x="5.85" y="19.9357143" width="1.3" height="1"></rect>
+            <rect id="Rectangle" stroke="#FFFFFF" stroke-width="1.3" x="9.75" y="19.9357143" width="1.3" height="1"></rect>
+            <rect id="Rectangle" stroke="#FFFFFF" stroke-width="1.3" x="1.95" y="23.7928571" width="1.3" height="1"></rect>
+            <rect id="Rectangle" stroke="#FFFFFF" stroke-width="1.3" x="5.85" y="23.7928571" width="1.3" height="1"></rect>
+            <rect id="Rectangle" stroke="#FFFFFF" stroke-width="1.3" x="9.75" y="23.7928571" width="1.3" height="1"></rect>
+        </g>
+    </g>
+</svg>

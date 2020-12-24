@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>icon/arrows</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="0%" y1="100%" x2="100%" y2="0%" id="linearGradient-1">
+            <stop stop-color="#FFD51D" offset="0%"></stop>
+            <stop stop-color="#F7981F" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="3.7978685%" y1="96.2021315%" x2="100%" y2="0%" id="linearGradient-2">
+            <stop stop-color="#FFD31D" offset="0%"></stop>
+            <stop stop-color="#FFEA40" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="icon/arrows" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M9.91544522,20 L18,20 C19.1045695,20 20,20.8954305 20,22 C20,23.1045695 19.1045695,24 18,24 L9.91544522,24 L9.91544522,26.0218277 C9.91544522,26.5620574 9.47750258,27 8.93727295,27 L8.67341503,27 C8.21149426,27 7.76381379,26.8401077 7.40640741,26.5474791 L2.79351242,22.7706443 C2.36618785,22.4207698 2.30340217,21.7907255 2.65327666,21.363401 C2.69541162,21.3119388 2.74257565,21.2648086 2.79406806,21.2227106 L7.40670931,17.4516117 C7.76394403,17.1595518 8.21117783,17 8.67260564,17 L8.93727295,17 C9.47750258,17 9.91544522,17.4379426 9.91544522,17.9781723 L9.91544522,20 Z" id="Combined-Shape" fill="url(#linearGradient-1)"></path>
+        <path d="M18.9154452,8 L27,8 C28.1045695,8 29,8.8954305 29,10 C29,11.1045695 28.1045695,12 27,12 L18.9154452,12 L18.9154452,14.0218277 C18.9154452,14.5620574 18.4775026,15 17.937273,15 L17.673415,15 C17.2114943,15 16.7638138,14.8401077 16.4064074,14.5474791 L11.7935124,10.7706443 C11.3661879,10.4207698 11.3034022,9.79072552 11.6532767,9.36340095 C11.6954116,9.31193877 11.7425756,9.26480859 11.7940681,9.22271059 L16.4067093,5.45161165 C16.763944,5.15955177 17.2111778,5 17.6726056,5 L17.937273,5 C18.4775026,5 18.9154452,5.43794264 18.9154452,5.97817227 L18.9154452,8 Z" id="Combined-Shape" fill="url(#linearGradient-2)" transform="translate(20.500000, 10.000000) rotate(-180.000000) translate(-20.500000, -10.000000) "></path>
+        <rect id="Rectangle" fill="#FFFFFF" x="8" y="25" width="1" height="1"></rect>
+        <path d="M23,7 L24,7 L24,8 L24,8 C23.4477153,8 23,7.55228475 23,7 Z" id="Rectangle" fill="#D8D8D8" transform="translate(23.500000, 7.500000) scale(-1, 1) translate(-23.500000, -7.500000) "></path>
+    </g>
+</svg>

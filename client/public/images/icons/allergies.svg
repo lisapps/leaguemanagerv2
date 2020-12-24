@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>icon/allergies</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="0%" y1="100%" x2="147.856522%" y2="-14.2175031%" id="linearGradient-1">
+            <stop stop-color="#FFD51D" offset="0%"></stop>
+            <stop stop-color="#F7981F" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="100%" y1="0%" x2="16.6269448%" y2="93.6508814%" id="linearGradient-2">
+            <stop stop-color="#FFD51D" offset="0%"></stop>
+            <stop stop-color="#F7981F" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="0%" y1="100%" x2="141.394771%" y2="-19.6384975%" id="linearGradient-3">
+            <stop stop-color="#FFD521" offset="0%"></stop>
+            <stop stop-color="#FFEC42" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="icon/allergies" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="weat" transform="translate(3.000000, 7.000000)" stroke="url(#linearGradient-1)" stroke-linecap="round" stroke-width="0.8128512">
+            <path d="M9.80922418,2.76 C10.0960778,11.0584428 6.90683393,17.7744129 0.241492598,22.9079102" id="Path-3"></path>
+            <path d="M12.9755162,-1.95399252e-14 C12.340146,6.77376953 11.4197359,11.6679329 10.2142857,14.6824902 C9.00883557,17.6970475 7.39154343,18.7709424 5.36240932,17.9041748" id="Path-3"></path>
+            <path d="M6.50759452,-7.10542736e-15 C7.1676752,6.73056966 6.86827741,10.964681 5.60940116,12.702334 C4.3505249,14.439987 4.18624151,16.1036312 5.11655099,17.6932666" id="Path-3"></path>
+            <polyline id="Line-5" points="6.80888149 3.06299805 9.7698931 5.28472168 12.6286621 3.06299805"></polyline>
+            <polyline id="Line-5" points="6.89480155 7.69197266 9.16272845 9.7594458 12.0088021 7.59089844"></polyline>
+            <polyline id="Line-5" points="5.80861555 12.4509399 7.48377337 14.215022 10.8159528 12.4509399"></polyline>
+        </g>
+        <g id="weat" transform="translate(25.000000, 11.500000) scale(-1, 1) translate(-25.000000, -11.500000) translate(20.000000, 3.000000)">
+            <path d="M7.47070313,3.92231369 L5.31245769,2.32966614 L5.31245769,5.70918655 L4.94011773,8.5 C3.1716419,10.3767548 2.89974164,11.8796285 4.12441695,13.0086212 C6.15380063,14.1424561 7.76681818,12.4572245 8.9634696,7.95292664 L9.01960784,5.85568237 L9.45590549,2.71461487 L7.47070313,3.92231369 Z" id="Path-2" fill="url(#linearGradient-2)"></path>
+            <path d="M7.54555706,2.04 C7.76621369,8.17363165 5.31294918,13.1376095 0.185763537,16.9319336" id="Path-3" stroke="url(#linearGradient-3)" stroke-width="0.6096384" stroke-linecap="round"></path>
+            <path d="M9.98116629,-2.13162821e-14 C9.49242001,5.00669922 8.7844122,8.62412435 7.85714286,10.8522754 C6.92987351,13.0804264 5.68580264,13.8741748 4.12493025,13.2335205" id="Path-3" stroke="url(#linearGradient-3)" stroke-width="0.6096384" stroke-linecap="round"></path>
+            <path d="M5.00584194,-7.10542736e-15 C5.51359631,4.97476888 5.28329032,8.10432943 4.31492397,9.38868164 C3.34655762,10.6730339 3.22018578,11.9026839 3.93580845,13.0776318" id="Path-3" stroke="url(#linearGradient-3)" stroke-width="0.6096384" stroke-linecap="round"></path>
+            <polyline id="Line-5" stroke="url(#linearGradient-3)" stroke-width="0.6096384" stroke-linecap="round" points="5.23760114 2.26395508 7.51530239 3.90609863 9.71435547 2.26395508"></polyline>
+            <polyline id="Line-5" stroke="url(#linearGradient-3)" stroke-width="0.6096384" stroke-linecap="round" points="5.3036935 5.68537109 7.04825265 7.21350342 9.23754011 5.61066406"></polyline>
+            <polyline id="Line-5" stroke="url(#linearGradient-3)" stroke-width="0.6096384" stroke-linecap="round" points="4.46816581 9.20286865 5.75674874 10.5067554 8.31996373 9.20286865"></polyline>
+        </g>
+    </g>
+</svg>

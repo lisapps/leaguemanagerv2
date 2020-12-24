@@ -1,0 +1,117 @@
+/* ======================================== */
+/* =                                      = */
+/*   Navigation                             */
+/* =                                      = */
+/* ======================================== */
+.c-branding {
+  /* max-width: 160px;
+	width: 15.62vw; */
+  width: 13.33em; //160px;
+  height: 4.15em; //50px;
+  background: url(../public/images/bars/logo_bar.svg) no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  @include for-size(phone-only) {
+    width: 32vw;
+  }
+}
+.c-nav {
+  background-color: $white;
+  display: flex;
+  flex-flow: column;
+  flex: 1;
+  justify-content: space-between;
+  &__list {
+    margin: 0;
+    list-style-type: none;
+    padding: 27px 0 0 0;
+    width: 13.33em;
+    background-color: $white;
+    /* height: 90vh; */
+    &__item {
+      display: block;
+      padding: 9px 0px 9px 22px;
+      margin: 5px 0px;
+      a {
+        width: auto;
+        display: inherit;
+        @include menu_text;
+        text-align: left;
+        text-decoration: none;
+        min-width: 4em;
+        height: auto;
+        img {
+          opacity: 0.6;
+          margin-right: 13px;
+          @include for-size(phone-only) {
+            margin-right: 5px;
+          }
+        }
+        span {
+          line-height: 19px;
+          vertical-align: bottom;
+          @include for-size(phone-only) {
+            font-size: .8em;
+          }
+        }
+      }
+      a:hover {
+        img {
+          opacity: 1;
+        }
+        span {
+          text-decoration: underline $sun_yellow;
+          color: black;
+        }
+      }
+      @include for-size(phone-only) {
+        padding: 9px 0px 9px 7px;
+      }
+    }
+    &__item--active {
+      height: auto;
+      padding: 9px 0px 9px 18px;
+      border-left: 4px solid $sun_yellow;
+      margin: 5px 0px;
+      a {
+        width: auto;
+        display: inherit;
+        @include menu_active_text;
+        text-align: left;
+        min-width: 4em;
+        height: auto;
+        text-decoration: none;
+        img {
+          opacity: 1;
+          margin-right: 13px;
+          @include for-size(phone-only) {
+            margin-right: 5px;
+          }
+        }
+        span {
+          line-height: 19px;
+          vertical-align: bottom;
+          @include for-size(phone-only) {
+            font-size: .8em;
+          }
+        }
+        span:hover {
+          text-decoration: underline $sun_yellow;
+        }
+      }
+      @include for-size(phone-only) {
+        padding: 9px 0px 9px 3px;
+      }
+    }
+    @include for-size(phone-only) {
+      width: 8.5em;
+      height: 85vh;
+    }
+  }
+  @include for-size(phone-only) {
+    width: 8.5em;
+  }
+}

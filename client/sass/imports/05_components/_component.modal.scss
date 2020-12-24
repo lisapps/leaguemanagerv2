@@ -1,0 +1,343 @@
+/* ======================================== */
+/* =                                      = */
+/*   Modal component	             	    */
+/* =                                      = */
+/* ======================================== */
+
+// this button opens modal
+
+.c-modal {
+  display: none;
+  position: fixed;
+  z-index: 5;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4);
+
+  &.show {
+    display: block;
+    z-index: 5;
+  }
+  /* Black w/ opacity */
+  .c-modal__content {
+    min-width: 61.25em;
+    max-width: 69.58em;
+    min-height: 37.5em;
+    max-height: 41.66em;
+    border-radius: 12px;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2);
+    background-color: $white;
+    margin: 15vh auto;
+    margin-bottom: 39px;
+
+    .c-teamTable,
+    .c-personTable,
+    .c-courtTable {
+      padding: 10px 0;
+      margin: 0 10px;
+      max-width: none;
+      width: auto;
+      border-bottom: 1px solid #d8d8d8;
+
+      .c-teamTable__header__item,
+      .c-teamTable__header__item:last-of-type,
+      .c-teamTable__listing__item,
+      .c-teamTable__listing__item:last-of-type {
+        width: 140px;
+      }
+
+      .c-teamTable__listing__item button.e-btn__add {
+        height: 24px;
+        width: 156px;
+      }
+    }
+
+    .c-btnrow {
+      float: right;
+      margin-right: 25px;
+      margin-bottom: 1em;
+      padding-top: 14px;
+    }
+  }
+
+  .c-searchForm {
+    margin: 12px auto;
+    width: 717px;
+  }
+
+  input[type="search"] {
+    background: url("../public/images/icons/find.svg") no-repeat 9px center;
+    background-size: 18px 18px;
+    padding: 6px 12px 6px 30px;
+    border: none;
+    margin-right: 29px;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    transition: all 0.5s;
+    cursor: pointer;
+    width: 717px;
+    height: 42px;
+    border-radius: 8px;
+    background-color: #ececec;
+    padding: 0;
+    margin: auto;
+
+    &:focus {
+      border: none;
+      background: url("../public/images/icons/find.svg") no-repeat 688px center;
+      background-size: 18px 18px;
+      border: none;
+      padding: 0 8px;
+      background-color: #ececec;
+      cursor: pointer;
+      width: 700px;
+    }
+  }
+
+  .e-btn_close {
+    color: #9b9b9b;
+    right: calc(50% - 410px);
+    font-size: 1em;
+    background-color: #fff;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    margin: 12.3vh auto;
+    position: absolute;
+    cursor: pointer;
+    background-image: url("../public/images/icons/icons-x-prompt.svg");
+
+    &:hover {
+      background-image: url("../public/images/icons/icons-x-prompt-hover.svg");
+    }
+  }
+}
+
+#c-addTeamModal {
+  .c-teamTable__header {
+    margin: 0 10px;
+  }
+
+  .c-modal__content {
+    min-width: 61.25em;
+    max-width: 61.25em;
+    padding-top: 1.5em;
+  }
+
+  div.e-btn_close.u-transfast {
+    right: calc(50% - 421px);
+  }
+
+  .c-teamTable {
+    overflow-y: scroll;
+    overflow-x: hidden;
+    min-height: 29em;
+    max-height: 29em;
+
+    .c-teamTable__listing {
+      overflow-y: scroll;
+      overflow-x: hidden;
+    }
+  }
+}
+
+#c-addCourtModal {
+  .c-courtTable__header {
+    margin: 0 10px;
+    height: auto!important;
+  }
+
+  .c-modal__content {
+    min-width: 61.25em;
+    max-width: 61.25em;
+    padding-top: 1.5em;
+  }
+
+  div.e-btn_close.u-transfast {
+    right: calc(50% - 421px);
+  }
+
+  .c-courtTable {
+    overflow-y: scroll;
+    overflow-x: hidden;
+    min-height: 29em;
+    max-height: 29em;
+
+    .c-courtTable__listing {
+      overflow-y: scroll;
+      overflow-x: hidden;
+    }
+  }
+}
+
+.c-courtTable.loading {
+  max-width: 832px;
+  width: 78.5vw;
+  margin-bottom: 39px;
+
+  .c-courtTable__header {
+    height: 31px;
+    color: $brown_grey;
+    font-family: FuturaPTBold;
+    font-size: 1em;
+    font-weight: bold;
+    line-height: 2.5em;
+    border-bottom: 1px solid $very_light-pink;
+    display: flex;
+    flex-flow: row;
+
+    .c-courtTable__header__item {
+      width: 160px;
+
+      &--courtsPage {
+        width: 127px;
+      }
+    }
+
+    .c-courtTable__header__item:last-of-type {
+      width: 170px;
+    }
+  }
+}
+
+#c-addPersonModal {
+  .c-personTable__header {
+    margin: 0 10px;
+  }
+
+  .c-modal__content {
+    min-width: 61.25em;
+    max-width: 61.25em;
+    max-height: 44em;
+    min-height: 43em;
+    padding-top: 1.5em;
+  }
+
+  div.e-btn_close.u-transfast {
+    right: calc(50% - 425px);
+  }
+
+  .c-personTable {
+    overflow-y: scroll;
+    overflow-x: hidden;
+    min-height: 29em;
+    max-height: 36em;
+
+    .c-personTable__listing {
+      overflow-y: scroll;
+      overflow-x: hidden;
+      padding: 5px 0;
+    }
+  }
+}
+
+#c-termsModal {
+  .c-modal__content {
+    min-width: 61.25em;
+    max-width: 61.25em;
+    padding-top: 1.5em;
+    display: block;
+    z-index: 5;
+    max-height: 44em;
+    min-height: 43em;
+    padding: 2em 1.5em 1.5em;
+
+    h4 {
+      text-align: center;
+    }
+
+    div {
+      overflow-y: scroll;
+      overflow-x: hidden;
+      min-width: 55em;
+      max-width: 58em;
+      max-height: 40em;
+    }
+
+    p, li {
+      margin-right: 5px;
+    }
+
+    @include for-size(phone-only) {
+      min-width: 60.25vw;
+      max-width: 89.25vw;
+    }
+  }
+}
+
+#c-mergeTeamModal {
+  .c-mergeTable__header {
+    margin: 0 10px;
+  }
+
+  .c-modal__content {
+    min-width: 61.25em;
+    max-width: 61.25em;
+    padding-top: 1.5em;
+  }
+
+  div.e-btn_close.u-transfast {
+    right: calc(50% - 421px);
+  }
+
+  .c-mergeTable {
+    overflow-y: scroll;
+    overflow-x: hidden;
+    min-height: 27em;
+    max-height: 31em;
+
+    .c-mergeTable__listing {
+      overflow-y: scroll;
+      overflow-x: hidden;
+    }
+  }
+}
+
+.c-modalLink {
+  display: flex;
+  flex-flow: column;
+  align-items: flex-end;
+  width: 29.3em;
+  height: auto;
+  padding: 0;
+  color: #4a4a4a !important;
+  font-family: FuturaPT-Demi;
+  font-size: 1.1em;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+#c-addManagerModal {
+  .c-managerTable__header {
+    margin: 0 10px;
+  }
+
+  .c-modal__content {
+    min-width: 61.25em;
+    max-width: 61.25em;
+    padding-top: 1.5em;
+  }
+
+  div.e-btn_close.u-transfast {
+    right: calc(50% - 421px);
+  }
+
+  .c-managerTable {
+    overflow-y: scroll;
+    overflow-x: hidden;
+    min-height: 29em;
+    max-height: 29em;
+    width: auto;
+    max-width: 62em;
+
+    .c-managerTable__listing {
+      overflow-y: scroll;
+      overflow-x: hidden;
+    }
+  }
+}

@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+    <defs>
+        <linearGradient id="a" x1="50%" x2="50%" y1="0%" y2="100%">
+            <stop offset="0%" stop-color="#F79B1F"/>
+            <stop offset="100%" stop-color="#FECE1D"/>
+        </linearGradient>
+        <linearGradient id="b" x1="48%" x2="52%" y1="100%" y2="0%">
+            <stop offset="0%" stop-color="#FFD41D"/>
+            <stop offset="100%" stop-color="#F7991F"/>
+        </linearGradient>
+        <linearGradient id="c" x1="0%" y1="93.112%" y2="6.888%">
+            <stop offset="0%" stop-color="#FFD41D"/>
+            <stop offset="100%" stop-color="#F7991F"/>
+        </linearGradient>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <path stroke="url(#a)" stroke-width="2" d="M9 11V1H1v7a3 3 0 0 0 3 3h5z" transform="translate(0 5)"/>
+        <path stroke="url(#a)" stroke-width="2" d="M39 11V1h-8v7a3 3 0 0 0 3 3h5z" transform="matrix(-1 0 0 1 70 5)"/>
+        <path fill="url(#b)" d="M18 13h4v20h-4z" transform="translate(0 5)"/>
+        <path fill="#F7991F" d="M12 37h16v2H12z"/>
+        <path fill="url(#c)" d="M8 0h24a2 2 0 0 1 2 2v16a8 8 0 0 1-8 8H14a8 8 0 0 1-8-8V2a2 2 0 0 1 2-2z" transform="translate(0 1)"/>
+        <path fill="#FFF" d="M28 5h2v2h-2z"/>
+        <path fill="#D8D8D8" d="M10 18h1v3h-1z"/>
+    </g>
+</svg>

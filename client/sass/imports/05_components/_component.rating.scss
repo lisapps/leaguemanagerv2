@@ -1,0 +1,44 @@
+/* ======================================== */
+/* =                                      = */
+/*   Rating component - forms star rating   */
+/* =                                      = */
+/* ======================================== */
+
+.c-rating {
+  border: none;
+  float: left;
+  padding: 0.6em 1.2em 0 0;
+}
+
+.c-rating > input {
+  display: none;
+}
+.c-rating > label:before {
+  margin-right: 1.43em;
+  padding: 0.6em 1.2em 0 0;
+  display: inline-block;
+  background: url(../public/images/icons/icon-star.svg) no-repeat;
+}
+
+.c-rating > label {
+  width: 1.5em;
+  height: 1.5em;
+  float: right;
+  background: url(../public/images/icons/icon-star.svg) no-repeat;
+  cursor: pointer;
+}
+
+/***** CSS Magic to Highlight Stars on Hover *****/
+
+.c-rating > input:checked ~ label, /* show gold star when clicked */
+.c-rating:not(:checked) > label:hover, /* hover current star */
+.c-rating:not(:checked) > label:hover ~ label {
+  background: url(../public/images/icons/icon-star-pressed.svg) no-repeat;
+} /* hover previous stars in list */
+
+.c-rating > input:checked + label:hover, /* hover current star when changing rating */
+.c-rating > input:checked ~ label:hover,
+.c-rating > label:hover ~ input:checked ~ label, /* lighten current selection */
+.c-rating > input:checked ~ label:hover ~ label {
+  background: url(../public/images/icons/icon-star-pressed.svg) no-repeat;
+}

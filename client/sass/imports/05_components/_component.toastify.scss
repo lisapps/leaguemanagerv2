@@ -1,0 +1,17 @@
+/* ----------------------------------------------------------- */
+/* Toastify component style fixes for main css conflicts
+/* ----------------------------------------------------------- */
+
+.Toastify__close-button {
+  width: auto;
+  &:hover {
+    background: transparent;
+  }
+  &:after {
+    background: transparent;
+  }
+}
+
+.Toastify__toast-container--top-center {
+  top: 4.5em !important;
+}

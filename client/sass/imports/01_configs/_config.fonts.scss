@@ -1,0 +1,155 @@
+/* ======================================== */
+/* =                                      = */
+/* =                    Fonts             = */
+/* =                                      = */
+/* ======================================== */
+
+/*
+.
+.     Defines fonts and mixins to set font settings for
+.     use in different component classes
+.      
+*/
+
+@font-face {
+  font-family: "FuturaPTBold";
+  src: url("../public/fonts/Futura_PT/FuturaPTBold.otf") format("otf"),
+    url("../public/fonts/Futura_PT/FuturaPTBold.woff") format("woff");
+}
+
+@font-face {
+  font-family: "FuturaPTMedium";
+  src: url("../public/fonts/Futura_PT/FuturaPTMedium.otf") format("otf"),
+    url("../public/fonts/Futura_PT/FuturaPTMedium.woff") format("woff");
+}
+
+@font-face {
+  font-family: "FuturaPTLight";
+  src: url("../public/fonts/Futura_PT/FuturaPTLight.otf") format("otf"),
+    url("../public/fonts/Futura_PT/FuturaPTLight.woff") format("woff");
+}
+
+@font-face {
+  font-family: "FuturaPTHeavy";
+  src: url("../public/fonts/Futura_PT/FuturaPTHeavy.otf") format("otf"),
+    url("../public/fonts/Futura_PT/FuturaPTHeavy.woff") format("woff");
+}
+
+@font-face {
+  font-family: "FuturaPTExtraBold";
+  src: url("../public/fonts/Futura_PT/FuturaPTExtraBold.otf") format("otf"),
+    url("../public/fonts/Futura_PT/FuturaPTExtraBold.woff") format("woff");
+}
+
+@font-face {
+  font-family: "FuturaPTDemi";
+  src: url("../public/fonts/Futura_PT/FuturaPTDemi.otf") format("otf"),
+    url("../public/fonts/Futura_PT/FuturaPTDemi.woff") format("woff");
+}
+
+/* Text styles */
+
+@mixin menu_active_text {
+  font-family: FuturaPTBold;
+  font-size: 1em;
+  color: #000000;
+}
+
+@mixin menu_text {
+  font-family: FuturaPTDemi;
+  font-size: 1em;
+  color: $greyish_brown;
+}
+
+@mixin small_body_text {
+  font-family: FuturaPTBold;
+  font-size: .84em;
+  color: $brown_grey;
+}
+
+@mixin h1 {
+  font-family: FuturaPTBold;
+  font-size: 1.34em;
+  color: $greyish_brown;
+}
+
+@mixin h1_inactive {
+  font-family: FuturaPTBold;
+  font-size: 1.34em;
+  color: $brown_grey;
+}
+
+@mixin h3_inactive {
+  font-family: FuturaPTBold;
+  font-size: 1em;
+  color: $brown_grey;
+}
+
+@mixin style-4_text {
+  font-family: FuturaPTMedium;
+  font-size: 1em;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: $greyish_brown;
+}
+
+@mixin component_labels {
+  font-family: FuturaPTBold;
+  font-size: 1em;
+  color: $greyish_brown;
+}
+
+@mixin large_body {
+  font-family: FuturaPTDemi;
+  font-size: 1.1em;
+  color: $greyish_brown;
+}
+
+@mixin body_text {
+  font-family: FuturaPTDemi;
+  font-size: 1em;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: $greyish_brown;
+}
+
+@mixin footnote {
+  font-family: FuturaPTMedium;
+  font-size: .84em;
+  font-weight: 500;
+  text-align: center;
+  color: $brown_grey;
+}
+
+@mixin small_label {
+  font-family: FuturaPTDemi;
+  font-size: .84em;
+  text-align: center;
+  color: $greyish_brown;
+}
+
+@mixin button_label {
+  font-family: FuturaPTBold;
+  font-size: .85em;
+  color: $greyish_brown;
+}
+
+@mixin small_sub-label {
+  font-family: FuturaPTDemi;
+  font-size: .84em;
+  text-align: center;
+  color: $brown_grey;
+}
+
+@mixin sum {
+  font-family: FuturaPT;
+  font-size: 1.85em;
+  font-weight: 500;
+  color: $brown_grey;
+}

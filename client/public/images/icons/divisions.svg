@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 59.1 (101010) - https://sketch.com -->
+    <title>FD1BC121-BCBF-4D52-9936-C5944B12C5B8</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#F79B1F" offset="0%"></stop>
+            <stop stop-color="#FECE1D" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="48%" y1="100%" x2="52%" y2="0%" id="linearGradient-2">
+            <stop stop-color="#FFD41D" offset="0%"></stop>
+            <stop stop-color="#F7991F" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="0%" y1="93.1122449%" x2="100%" y2="6.8877551%" id="linearGradient-3">
+            <stop stop-color="#FFD41D" offset="0%"></stop>
+            <stop stop-color="#F7991F" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Concepts-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Create-League-Filled" transform="translate(-360.000000, -962.000000)">
+            <g id="bar/line_item" transform="translate(344.000000, 955.000000)">
+                <g id="Group" transform="translate(16.000000, 3.500000)">
+                    <g id="icon/teams" transform="translate(0.000000, 3.000000)">
+                        <g id="Group-3" transform="translate(1.250000, 4.125000)">
+                            <path d="M14.6804693,10 L12.6245767,1.22819132 C12.4985501,0.690477882 12.8322882,0.152410277 13.3700017,0.0263836894 C13.4447995,0.0088529572 13.5213683,-7.7574487e-15 13.598193,-7.10542736e-15 L15.7178948,-7.10542736e-15 C16.2701796,-6.98483582e-15 16.7178948,0.44771525 16.7178948,1 C16.7178948,1.07520246 16.7094118,1.15016493 16.6926066,1.22346565 L14.6804693,10 L14.6804693,10 Z" id="Line" stroke="#FFD31D" stroke-linecap="square"></path>
+                            <path d="" id="Line" stroke="#FFD31D" stroke-linecap="square" transform="translate(14.680469, 10.000000) scale(-1, 1) translate(-14.680469, -10.000000) "></path>
+                            <g id="Group-2" transform="translate(0.000000, 1.875000)">
+                                <g id="trophy">
+                                    <g id="Group" transform="translate(0.000000, 1.250000)">
+                                        <path d="M2.625,3.25 L2.625,0.5 L1,0.5 C0.723857625,0.5 0.5,0.723857625 0.5,1 L0.5,1.875 C0.5,2.63439153 1.11560847,3.25 1.875,3.25 L2.625,3.25 Z" id="Rectangle" stroke="url(#linearGradient-1)"></path>
+                                        <path d="M12,3.25 L12,0.5 L10.375,0.5 C10.0988576,0.5 9.875,0.723857625 9.875,1 L9.875,1.875 C9.875,2.63439153 10.4906085,3.25 11.25,3.25 L12,3.25 Z" id="Rectangle" stroke="url(#linearGradient-1)" transform="translate(10.937500, 1.875000) scale(-1, 1) translate(-10.937500, -1.875000) "></path>
+                                        <rect id="Rectangle" fill="url(#linearGradient-2)" x="5.625" y="4.375" width="1.25" height="6.25"></rect>
+                                        <rect id="Rectangle" fill="#F7991F" x="3.75" y="10.625" width="5" height="1"></rect>
+                                    </g>
+                                    <path d="M2.875,0 L9.625,0 C10.1772847,-1.01453063e-16 10.625,0.44771525 10.625,1 L10.625,4.125 C10.625,6.334139 8.834139,8.125 6.625,8.125 L5.875,8.125 C3.665861,8.125 1.875,6.334139 1.875,4.125 L1.875,1 C1.875,0.44771525 2.32271525,1.01453063e-16 2.875,0 Z" id="Rectangle" fill="url(#linearGradient-3)"></path>
+                                    <rect id="Rectangle" fill="#FFFFFF" x="8.75" y="1.25" width="1.25" height="1.25"></rect>
+                                    <rect id="Rectangle" fill="#D8D8D8" x="3.125" y="5" width="1" height="1.25"></rect>
+                                </g>
+                            </g>
+                            <circle id="Oval" stroke="#FFFFFF" fill="#FFD926" cx="14.6875" cy="10.3125" r="2.6875"></circle>
+                            <circle id="Oval" fill="#4A4A4A" cx="14.6875" cy="10.3125" r="1"></circle>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

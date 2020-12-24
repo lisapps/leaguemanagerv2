@@ -1,0 +1,385 @@
+/* ======================================== */
+/* =                                      = */
+/*   Match box component	         	    */
+/* =                                      = */
+/* ======================================== */
+
+.c-match {
+  &__date {
+    @include small_body_text;
+    line-height: 25px;
+  }
+  &__results {
+    /* display: flex;
+    justify-content: space-between; */
+    margin: auto;
+
+    &--standings {
+      height: 50px;
+      margin: unset;
+      max-width: 250px;
+    }
+    &--scores {
+      height: 60px;
+      width: 100%;
+      min-width: 49em;
+      padding: 0;
+    }
+    .e-match__team {
+      display: flex;
+      flex-flow: row;
+      justify-content: space-between;
+      width: 250px;
+      // relevant team info here
+      .e-standings__cell {
+        width: 160px;
+        display: flex;
+        flex-flow: row;
+      }
+      .e-match__teamName {
+        @include small_label;
+        line-height: 18px;
+        line-height: 50px;
+        width: 110px;
+        text-align: left;
+        text-overflow: ellipsis;
+        overflow: hidden;
+      }
+      img {
+        width: 24px;
+        height: 24px;
+        margin: auto 12px;
+        line-height: 50px;
+      }
+      .e-match__teamStandings {
+        font-family: FuturaPTDemi;
+        color: $greyish_brown;
+        font-size: 1em;
+        line-height: 50px;
+        width: 80px;
+        text-align: center;
+        letter-spacing: 4px;
+      }
+    }
+    .e-match__overview {
+      display: flex;
+      flex-flow: row;
+      // width: 59.25em;
+      width: 100%;
+      min-width: 49em;
+      height: 60px;
+      justify-content: space-between;
+
+      @include for-size(phone-only) {
+        width: 78vw;
+      }
+      // relevant team info here
+      .e-score__cell {
+        width: 160px;
+        display: flex;
+        flex-flow: row;
+        &--end {
+          justify-content: flex-end;
+        }
+        @include for-size(phone-only) {
+          width: 9em;
+        }
+      }
+      .e-match__teamName {
+        @include small_label;
+        line-height: 18px;
+        line-height: 60px;
+        font-size: 1em;
+        width: 110px;
+        text-align: left;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        &--right {
+          text-align: right;
+        }
+      }
+      img {
+        width: 24px;
+        height: 24px;
+        margin: auto 12px;
+        line-height: 50px;
+      }
+      .e-match__teamStandings {
+        font-family: FuturaPTDemi;
+        color: $greyish_brown;
+        font-size: 1em;
+        line-height: 50px;
+        width: 80px;
+        text-align: center;
+      }
+    }
+    .e-match__score {
+      width: 45px;
+      font-family: FuturaPTDemi;
+      font-size: 21px;
+      line-height: 70px;
+      text-align: center;
+      &--win {
+        background: url(../public/images/icons-win.png) no-repeat 10px 9px;
+        &:after {
+          content: url(../public/images/icons/icon-tri-selected.svg);
+          height: 9.5px;
+          display: block;
+          width: 100%;
+          margin-top: -52px;
+        }
+      }
+      &--lose {
+        background: url(../public/images/icons-lose.png) no-repeat 10px 9px;
+        &:after {
+          content: url(../public/images/icons/icon-tri-unselected.svg);
+          height: 9.5px;
+          display: block;
+          width: 100%;
+          margin-top: -52px;
+        }
+      }
+      
+      input {
+        line-height: normal;
+        max-width: 44px;
+        background: transparent;
+        text-align: center;
+        border-left: 0;
+        border-top: 0;
+        border-right: 0;
+        border-bottom: 1px solid #979797;
+        margin-right: 5px;
+      }
+      // hide spinner arrows
+      /* Chrome, Safari, Edge, Opera */
+      input::-webkit-outer-spin-button,
+      input::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+      }
+
+      /* Firefox */
+      input[type="number"] {
+        -moz-appearance: textfield;
+      }
+      &--0 {
+        background: url(../public/images/icons/icons-set-1.png) no-repeat 8px 9px;
+        width: auto;
+      }
+      &--1 {
+        background: url(../public/images/icons/icons-set-2.png) no-repeat 8px 9px;
+        width: auto;
+      }
+      &--2 {
+        background: url(../public/images/icons/icons-set-3.png) no-repeat 8px 9px;
+        width: auto;
+      }
+      &--3 {
+        background: url(../public/images/icons/icons-set-4.png) no-repeat 8px 9px;
+        width: auto;
+      }
+      &--4 {
+        background: url(../public/images/icons/icons-set-5.png) no-repeat 8px 9px;
+        width: auto;
+      }
+    }
+    .e-match__center {
+      width: 44px;
+      font-family: FuturaPTMedium;
+      font-size: 1.5em;
+      font-weight: 500;
+      line-height: 60px;
+      text-align: center;
+    }
+    &--disputed {
+      margin-bottom: 13px;
+      padding: 0;
+      // add red tick and disputed pink pill
+      .e-match__center::before {
+        content: "Disputed";
+    font-family: FuturaPTMedium;
+    font-size: 9px;
+    font-weight: 500;
+    letter-spacing: 0.3px;
+    text-align: center;
+    color: white;
+    width: 44px;
+    height: 15px;
+    border-radius: 7px;
+    display: block;
+    line-height: 1.6;
+    background-color: #ff2072;
+      }
+      .e-match__team {
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        width: 88px;
+        .e-match__teamName {
+          @include small_label;
+          line-height: 18px;
+          width: 110px;
+          text-overflow: ellipsis;
+          overflow: hidden;
+          padding-right: 8px;
+        }
+        .e-match__teamStandings {
+          @include small_sub-label;
+          line-height: 22px;
+        }
+        img {
+          width: 44px;
+          height: 44px;
+          margin: 0 auto;
+        }
+      }
+      .e-match__score {
+        width: 30px;
+        color: black;
+        font-family: FuturaPTDemi;
+        font-size: 21px;
+        line-height: 70px;
+        text-align: center;
+        
+        &--win {
+          background: url(../public/images/icons-win.png) no-repeat 3px 6px;
+          &:after {
+            content: url(../public/images/icons/icon-tri-selected.svg);
+            height: 9.5px;
+            display: block;
+            width: 100%;
+            margin-top: -52px;
+          }
+        }
+        &--lose {
+          background: url(../public/images/icons-lose.png) no-repeat 3px 6px;
+          &:after {
+            content: url(../public/images/icons/icon-tri-unselected.svg);
+            height: 9.5px;
+            display: block;
+            width: 100%;
+            margin-top: -52px;
+          }
+        }
+      }
+      
+      .e-match__center {
+        width: 44px;
+        font-family: FuturaPTMedium;
+        font-size: 1.5em;
+        font-weight: 500;
+        line-height: 42px;
+        text-align: center;
+      }
+      .e-match__center::after {
+        content: url(../public/images/icons/icon-tri-alert.svg);
+        width: 9.5px;
+        height: 9.5px;
+        display: block;
+        width: 100%;
+        margin-top: -25px;
+      }
+    }
+    &--pastdue {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 13px;
+      // add red tick
+      .e-match__team {
+        display: flex;
+        flex-flow: unset;
+        justify-content: space-around;
+        width: 144px;
+        img {
+          width: 44px;
+          height: 44px;
+          margin: 0 auto;
+        }
+        .e-match__teamName {
+          @include component_labels;
+          line-height: 18px;
+          word-break: break-all;
+          max-width: 55px;
+          text-overflow: ellipsis;
+          overflow: hidden;
+        }
+        .e-match__teamCaptain {
+          @include small_body_text;
+          line-height: 18px;
+        }
+      }
+      .e-match__center {
+        width: 44px;
+        font-family: FuturaPTMedium;
+        font-size: 1.5em;
+        font-weight: 500;
+        line-height: 89px;
+        text-align: center;
+        margin-left: -54px;
+      }
+      .e-match__center::before {
+        content: "Past Due";
+        font-family: FuturaPTMedium;
+        font-size: 7px;
+        font-weight: 500;
+        letter-spacing: 0.3px;
+        text-align: center;
+        color: white;
+        width: 44px;
+        height: 12px;
+        border-radius: 7px;
+        display: block;
+        line-height: 1.8;
+        background-color: #ff2072;
+        margin-top: 7px;
+      }
+      .e-match__due {
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        width: 88px;
+        .e-match__sum {
+          @include sum;
+          line-height: 89px;
+          text-align: center;
+        }
+        .e-match__tri::after {
+          content: url(../public/images/icons/icon-tri-alert.svg);
+          width: 9.5px;
+          height: 9.5px;
+          display: block;
+          margin: auto;
+        }
+      }
+    }
+  }
+  &__game {
+    // empty slots for dragging team chips
+  }
+}
+.remove-active {
+  .e-match__overview {
+    width: 800px;
+  }
+  .e-btn__select {
+    display: block;
+
+    &:hover {
+      display: block;
+    }
+  }
+}
+
+.e-btn__select.js-selected {
+  display: block;
+  background: url(../public/images/icons/select-circle-pressed.svg) no-repeat 0px;
+}
+
+.e-rank {
+  line-height: 50px;
+  margin-right: 20px;
+  color: $brown-grey;
+  font-size: 1em;
+  font: FuturaPTMedium;
+}

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="21px" viewBox="0 0 20 21" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 59.1 (101010) - https://sketch.com -->
+    <title>ABB40483-2E80-4654-B793-7955C638C013</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <linearGradient x1="37.5%" y1="0%" x2="62.5%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#FFD51D" offset="0%"></stop>
+            <stop stop-color="#F7981F" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="62.5%" y1="0%" x2="37.5%" y2="100%" id="linearGradient-2">
+            <stop stop-color="#FFD521" offset="0%"></stop>
+            <stop stop-color="#FFEC42" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="42%" y1="0%" x2="58%" y2="100%" id="linearGradient-3">
+            <stop stop-color="#FFD51D" offset="0%"></stop>
+            <stop stop-color="#F7981F" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="58%" y1="0%" x2="42%" y2="100%" id="linearGradient-4">
+            <stop stop-color="#FFD521" offset="0%"></stop>
+            <stop stop-color="#FFEC42" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="2.13601879%" x2="50%" y2="100%" id="linearGradient-5">
+            <stop stop-color="#FFD521" offset="0%"></stop>
+            <stop stop-color="#FFEC42" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Concepts-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Create-League-Division-view-edit-" transform="translate(-360.000000, -666.000000)">
+            <g id="bar/line_item_selected" transform="translate(344.000000, 659.000000)">
+                <g id="Group" transform="translate(16.000000, 3.500000)">
+                    <g id="icon/match" transform="translate(0.000000, 3.000000)">
+                        <path d="M9.98384844,14.75 C9.99320565,14.7400033 10,3.68450569 10,3.5 C9.97008765,3.5 4.375,6.80882353 4.375,10.1176471 C4.375,13.4264706 6.88616698,14.75 9.98384844,14.75 Z" id="Oval" fill="url(#linearGradient-1)"></path>
+                        <path d="M15.6088484,14.75 C15.6182057,14.7400033 15.625,3.68450569 15.625,3.5 C15.5950876,3.5 10,6.80882353 10,10.1176471 C10,13.4264706 12.511167,14.75 15.6088484,14.75 Z" id="Oval" fill="url(#linearGradient-2)" transform="translate(12.812500, 9.125000) scale(-1, 1) translate(-12.812500, -9.125000) "></path>
+                        <path d="M10.0107677,14.125 C10.0045296,14.1166694 10,4.90375474 10,4.75 C10.0199416,4.75 13.75,7.50735294 13.75,10.2647059 C13.75,13.0220588 12.0758887,14.125 10.0107677,14.125 Z" id="Oval" fill="url(#linearGradient-3)"></path>
+                        <path d="M9.9892323,14.125 C9.99547044,14.1166694 10,4.90375474 10,4.75 C9.98005843,4.75 6.25,7.50735294 6.25,10.2647059 C6.25,13.0220588 7.92411132,14.125 9.9892323,14.125 Z" id="Oval" fill="url(#linearGradient-4)"></path>
+                        <g id="Group" transform="translate(8.750000, 9.750000)" stroke="#FFFFFF" stroke-width="1.08695652">
+                            <path d="M-0.543478261,2.13449553 L3.05204384,2.13844719 L3.03495718,9.89420416 L-0.543478261,9.89420416 L-0.543478261,2.13449553 Z" id="Rectangle" fill="url(#linearGradient-5)"></path>
+                            <path d="M1.25,-0.543478261 C2.24051069,-0.543478261 3.04347826,0.259489307 3.04347826,1.25 L3.04347826,2.55240683 L-0.543478261,2.55240683 L-0.543478261,1.25 C-0.543478261,0.259489307 0.259489307,-0.543478261 1.25,-0.543478261 Z" id="Rectangle" fill="#4A4A4A"></path>
+                        </g>
+                        <polygon id="Rectangle" fill="#D8D8D8" transform="translate(10.000000, 12.562500) rotate(-360.000000) translate(-10.000000, -12.562500) " points="8.75 12.25 11.25 12.25 11.25 12.875 8.75 12.875"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

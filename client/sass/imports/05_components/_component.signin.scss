@@ -1,0 +1,107 @@
+/* ======================================== */
+/* =                                      = */
+/*   Sign in / login form                   */
+/* =                                      = */
+/* ======================================== */
+
+// -- signin form
+.c-signin-form {
+  width: 27.5em; //380px
+  height: 30.5em; //368px
+  margin: 0 auto;
+  font-family: Tahoma, Geneva, sans-serif;
+  margin-top: 7.5em;
+  @include for-size(phone-only) {
+    width: 28em;
+    height: 28em;
+  }
+  .e-signinLogo {
+    width: 27.5em;
+    height: 3.5em;
+    background-image: url(../public/images/icons/logo-signin.svg);
+    margin-bottom: 1.5em; //24px
+    @include for-size(phone-only) {
+      width: 28em;
+      height: 3.66em;
+      background-position: -25px 0px;
+    }
+  }
+  .e-greet {
+    @include component_labels;
+    text-align: center;
+    margin-bottom: 4.83em; //58px
+  }
+  .e-incorrect {
+    @include component_labels;
+    text-align: center;
+    margin-bottom: 2.83em; //58px
+  }
+  #e-signin-form,
+  #e-forgot-form {
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+  }
+  input::placeholder {
+    color: #ccc;
+    font: 12px FuturaPTDemi;
+  }
+  input[type="password"],
+  input[type="text"] {
+    width: 24em; //288px
+    padding: 0 0 0 2.33em;
+    border: 0;
+    border-bottom: 1px solid #4a4a4a;
+    margin: 0 auto;
+    margin-bottom: 1.25em;
+    box-sizing: border-box;
+    height: 3.1em; //37px
+  }
+  input[type="text"] {
+    background: url(../public/images/icons/mail.svg) no-repeat left 10px;
+    background-size: 1.67em; //20px
+  }
+  input[type="password"] {
+    background: url(../public/images/icons/lock.svg) no-repeat left 10px;
+    background-size: 1.67em;
+  }
+  input[type="submit"] {
+    width: 100%;
+    padding: 1.25em;
+    background-color: #535b63;
+    border: 0;
+    box-sizing: border-box;
+    cursor: pointer;
+    font-weight: bold;
+    color: #ffffff;
+  }
+  .e-passHelp {
+    @include small_body_text;
+    text-align: center;
+    margin-top: 6em;
+    &:hover {
+      color: #4a4a4a;
+    }
+  }
+  .e-error {
+    //visibility: hidden;
+    @include small_body_text;
+    text-align: center;
+    color: #ff2072;
+    margin-bottom: 1em;
+  }
+}
+.c-terms {
+  @include footnote;
+  text-align: center;
+  margin-top: 1.25em;
+  cursor: pointer;
+  margin-bottom: 1.5rem;
+  flex-basis: 100%;
+  line-height: 1.2em;
+}
+.e-cookieMsg {
+  @include footnote;
+  text-align: center;
+  margin-top: 1.25em;
+}

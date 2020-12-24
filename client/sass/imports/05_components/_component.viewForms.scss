@@ -1,0 +1,503 @@
+/* ======================================== */
+/* =                                      = */
+/*   Creation forms  I.e. create league     */
+/* =                                      = */
+/* ======================================== */
+
+.c-viewForm {
+  width: 492px !important;
+  /* margin-top: 60px; */
+  min-width: 492px;
+  // height: 100vh;
+
+  .u-component_labels {
+    margin: 2.67em 0 1.25em;
+  }
+
+  // Image upload
+  .e-viewForm__imgUploadIcon {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    min-width: 100px;
+  }
+
+  .e-viewForm__name {
+    height: 30px;
+    line-height: 35px;
+    width: 327px;
+    background-color: transparent;
+    border: 0;
+    border-bottom: 1px solid #979797;
+    width: 327px;
+    @include h1;
+    margin-left: 30px;
+    margin-top: 40px;
+
+    &--first {
+      margin-top: 5px;
+    }
+
+    &--last {
+      margin-top: 10px;
+    }
+
+    &--division:before {
+      content: "";
+      background: #ffffff;
+      border: 1px solid #979797;
+      height: 10px;
+      width: 10px;
+      display: inline-block;
+      border-radius: 100%;
+      vertical-align: initial;
+      margin-right: 0.55em;
+    }
+  }
+
+  .e-viewForm__age {
+    height: 28px;
+    width: 164px;
+    line-height: 28px;
+    background-color: transparent;
+    border: 0;
+    border-bottom: 1px solid #979797;
+    @include h1;
+    margin-left: 30px;
+    margin-top: 10px;
+  }
+
+  .e-viewForm__court {
+    @include body_text;
+    margin-left: 24px;
+  }
+
+  .e-viewForm__imgCourtIcon {
+    width: 2em;
+    height: 2em;
+  }
+
+  .e-viewForm__imgLabel {
+    margin-top: 10px;
+    @include small_label;
+    text-transform: uppercase;
+    width: 100px;
+  }
+
+  // .e-viewForm__imgLabel::-webkit-file-upload-button {
+  //   //visibility: hidden;
+  // }
+  .e-viewForm__imgLabel {
+    display: inline-block;
+    @include small_label;
+    cursor: pointer;
+  }
+
+  .e-viewForm__imgLabel:hover {
+    border-color: black;
+  }
+
+  .e-viewForm__imgLabel:active {
+    background: -webkit-linear-gradient(top, #e3e3e3, #f9f9f9);
+  }
+
+  #e-viewForm__fileUpload {
+    visibility: hidden;
+    width: 100px;
+  }
+
+  .e-viewForm__liEntry {
+    @include style-4_text;
+    list-style: none;
+    height: 36px;
+    width: 460px;
+    background-color: $white;
+    display: flex;
+    justify-content: space-between;
+
+    .e-viewForm__label {
+      @include body_text;
+      padding-left: 34px;
+      margin-left: 16px;
+      line-height: 36px;
+
+      &--allergies {
+        background: url(../public/images/icons/allergies.svg) no-repeat
+          left/1.43em;
+      }
+
+      &--attack {
+        background: url(../public/images/icons/attack.svg) no-repeat left/1.43em;
+      }
+
+      &--beach {
+        background: url(../public/images/icons/bucket.svg) no-repeat left/1.43em;
+      }
+
+      &--block {
+        background: url(../public/images/icons/block.svg) no-repeat left/1.43em;
+      }
+
+      &--court {
+        background: url(../public/images/icons/court.svg) no-repeat left/1.43em;
+      }
+
+      &--cost {
+        background: url(../public/images/icons/credit-card.svg) no-repeat
+          left/1.43em;
+      }
+
+      &--day {
+        background: url(../public/images/icons/calendar.svg) no-repeat
+          left/1.43em;
+      }
+
+      &--dob {
+        background: url(../public/images/icons/calendar.svg) no-repeat
+          left/1.43em;
+      }
+
+      &--defense {
+        background: url(../public/images/icons/defence.svg) no-repeat
+          left/1.43em;
+      }
+
+      &--division {
+        background: url(../public/images/icons/division.svg) no-repeat
+          left/1.43em;
+      }
+
+      &--duration {
+        background: url(../public/images/icons/duration.svg) no-repeat
+          left/1.43em;
+      }
+
+      &--email {
+        background: url(../public/images/icons/mail.svg) no-repeat left/1.43em;
+      }
+
+      &--environment {
+        background: url(../public/images/icons/environment.svg) no-repeat
+          left/1.43em;
+      }
+
+      &--format {
+        background: url(../public/images/icons/playtype.svg) no-repeat
+          left/1.43em;
+      }
+
+      &--gameType {
+        background: url(../public/images/icons/bucket.svg) no-repeat left/1.43em;
+      }
+
+      &--gender {
+        background: url(../public/images/icons/players.svg) no-repeat
+          left/1.43em;
+      }
+
+      &--hand {
+        background: url(../public/images/icons/hands.svg) no-repeat left/1.43em;
+      }
+
+      &--height {
+        background: url(../public/images/icons/ruler.svg) no-repeat left/1.43em;
+      }
+
+      &--location {
+        background: url(../public/images/icons/map.svg) no-repeat left/1.43em;
+      }
+
+      &--match {
+        background: url(../public/images/icons/match.svg) no-repeat left/1.43em;
+      }
+
+      &--medical {
+        background: url(../public/images/icons/pills.svg) no-repeat left/1.43em;
+      }
+
+      &--minplayers {
+        background: url(../public/images/icons/players-min.svg) no-repeat
+          left/1.43em;
+      }
+
+      &--maxplayers {
+        background: url(../public/images/icons/players-max.svg) no-repeat
+          left/1.43em;
+      }
+
+      &--password {
+        background: url(../public/images/icons/lock.svg) no-repeat left/1.43em;
+      }
+
+      &--pencil {
+        background: url(../public/images/icons/pencil.svg) no-repeat left/1.43em;
+      }
+
+      &--phone {
+        background: url(../public/images/icons/phone.svg) no-repeat left/1.43em;
+      }
+
+      &--position {
+        background: url(../public/images/icons/position.svg) no-repeat
+          left/1.43em;
+      }
+
+      &--rules {
+        background: url(../public/images/icons/documents.svg) no-repeat
+          left/1.43em;
+      }
+
+      &--serve {
+        background: url(../public/images/icons/serving.svg) no-repeat
+          left/1.43em;
+      }
+
+      &--school {
+        background: url(../public/images/icons/education.svg) no-repeat
+          left/1.43em;
+      }
+
+      &--shirt {
+        background: url(../public/images/icons/tag.svg) no-repeat left/1.43em;
+      }
+
+      &--side {
+        background: url(../public/images/icons/arrows.svg) no-repeat left/1.43em;
+      }
+
+      &--style {
+        background: url(../public/images/icons/style.svg) no-repeat left/1.43em;
+      }
+
+      &--surface {
+        background: url(../public/images/icons/surface.svg) no-repeat
+          left/1.43em;
+      }
+
+      &--teams {
+        background: url(../public/images/icons/teams.svg) no-repeat left/1.43em;
+      }
+
+      &--time {
+        background: url(../public/images/icons/clock.svg) no-repeat left/1.43em;
+      }
+
+      &--type {
+        background: url(../public/images/icons/tag.svg) no-repeat left/1.43em;
+      }
+
+      &--whistle {
+        background: url(../public/images/icons/tag.svg) no-repeat left/1.43em;
+      }
+    }
+  }
+
+  .e-viewForm__text {
+    // width: 200px;
+    // background: transparent;
+    // border: 0;
+    // line-height: 35px;
+    // margin-right: 20px;
+    // text-align: right;
+
+    &--btn {
+      cursor: pointer;
+    }
+
+    &--center {
+      text-align: center;
+    }
+
+    &--left {
+      text-align: left;
+    }
+  }
+
+  input.js-phone.e-createForm__text {
+    width: 200px;
+    background: transparent;
+    border: 0;
+    line-height: 35px;
+    margin-right: 20px;
+    text-align: right;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+}
+
+/* elements that are in edit forms which are actually under createForm
+ */
+.e-viewForm__liEntry {
+  @include style-4_text;
+  list-style: none;
+  height: 36px;
+  width: 460px;
+  background-color: $white;
+  display: flex;
+  justify-content: space-between;
+
+  .e-viewForm__label {
+    margin-left: 16px;
+    line-height: 36px;
+  }
+
+  button {
+    margin-top: 5px;
+  }
+}
+
+.e-viewForm__text--address {
+  width: 200px;
+  background: transparent;
+  border: 0;
+  line-height: 35px;
+  margin-right: 20px;
+  text-align: right;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.e-divisionLink {
+  margin: 3em 0 0;
+  display: flex;
+  flex-flow: column;
+  align-items: flex-end;
+  width: 12em;
+  height: fit-content;
+  padding: 0;
+  color: #4a4a4a !important;
+  font-family: FuturaPTDemi;
+  font-size: 1.1em;
+  text-transform: uppercase;
+}
+
+.e-viewForm__text--division {
+  width: 265px!important;
+}
+
+.e-viewForm__text {
+  width: 200px;
+  background: transparent;
+  border: 0;
+  line-height: 35px;
+  margin-right: 20px;
+  text-align: right;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.c-divisions {
+  li:nth-child(6n + 1) {
+    label {
+      padding-left: 0 !important;
+
+      &::before {
+        content: "";
+        background: #ffffff;
+        height: 10px;
+        width: 10px;
+        display: inline-block;
+        border-radius: 50%;
+        vertical-align: initial;
+        margin-right: 0.55em;
+        border: 1px solid pink;
+        background: #fff;
+        border: 1px solid #979797;
+      }
+    }
+  }
+
+  li:nth-child(6n + 2) {
+    label {
+      padding-left: 0 !important;
+
+      &::before {
+        content: "";
+        background: #ffffff;
+        height: 10px;
+        width: 10px;
+        display: inline-block;
+        border-radius: 100%;
+        vertical-align: initial;
+        margin-right: 0.55em;
+        background: #ff20f4;
+      }
+    }
+  }
+
+  li:nth-child(6n + 3) {
+    label {
+      padding-left: 0 !important;
+
+      &::before {
+        content: "";
+        background: #ffffff;
+        height: 10px;
+        width: 10px;
+        display: inline-block;
+        border-radius: 100%;
+        vertical-align: initial;
+        margin-right: 0.55em;
+        background: #2092ff;
+      }
+    }
+  }
+
+  li:nth-child(6n + 4) {
+    label {
+      padding-left: 0 !important;
+
+      &::before {
+        content: "";
+        background: #ffffff;
+        height: 10px;
+        width: 10px;
+        display: inline-block;
+        border-radius: 100%;
+        vertical-align: initial;
+        margin-right: 0.55em;
+        background: #20f6ff;
+      }
+    }
+  }
+
+  li:nth-child(6n + 5) {
+    label {
+      padding-left: 0 !important;
+
+      &::before {
+        content: "";
+        background: #ffffff;
+        height: 10px;
+        width: 10px;
+        display: inline-block;
+        border-radius: 100%;
+        vertical-align: initial;
+        margin-right: 0.55em;
+        background: #20ffb7;
+      }
+    }
+  }
+
+  li:nth-child(6n + 6) {
+    label {
+      padding-left: 0 !important;
+
+      &::before {
+        content: "";
+        background: #ffffff;
+        height: 10px;
+        width: 10px;
+        display: inline-block;
+        border-radius: 100%;
+        vertical-align: initial;
+        margin-right: 0.55em;
+        background: #91ff20;
+      }
+    }
+  }
+}

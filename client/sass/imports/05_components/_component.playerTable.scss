@@ -1,0 +1,164 @@
+/* ======================================== */
+/* =                                      = */
+/*   Card content component - team info     */
+/* =                                      = */
+/* ======================================== */
+
+.c-personTable__header {
+  height: 31px;
+  color: $greyish_brown;
+  font-family: FuturaPTBold;
+  font-size: 1em;
+  font-weight: bold;
+  line-height: 2.5em;
+  border-bottom: 1px solid $very_light-pink;
+  display: flex;
+  flex-flow: row;
+
+  .c-personTable__header__item {
+    width: 110px;
+    /* width: 13.67vw; */
+  }
+
+  .c-personTable__header__item:last-of-type {
+    width: 160px;
+  }
+
+  .c-personTable__header__item:nth-child(1) {
+    width: 170px;
+  }
+
+  .c-personTable__header__item--modal:nth-child(1) {
+    width: 170px;
+  }
+
+  .c-personTable__header__item--modal:nth-child(2) {
+    width: 50px;
+  }
+}
+
+.c-personTable {
+  max-width: 55em;
+  // width: 78.5vw;
+  margin-bottom: 21px;
+  // margin-left: 2px;
+
+  .c-personTable__listing {
+    height: 48px;
+    color: $greyish_brown;
+    font-family: FuturaPTDemi;
+    font-size: 1em;
+    font-weight: 500;
+    padding: 12px 0;
+    display: flex;
+
+    img {
+      width: 24px;
+      height: 24px;
+      vertical-align: middle;
+      margin-right: 12px;
+    }
+    .e-playerIcon {
+      border: 2px solid transparent;
+    }
+
+    .c-personTable__listing__item {
+      width: 110px;
+      /* width: 13.67vw; */
+      min-height: 37px;
+      line-height: 24px;
+      color: $greyish_brown;
+      font-family: FuturaPTDemi;
+      font-size: 1em;
+      font-weight: 500;
+      padding: 0 8px 0 0;
+      /* display: table-cell; */
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      .c-personTable__cell {
+        margin-top: 2px;
+      }
+
+      &--link:hover {
+        img {
+          border: 2px solid $sun_yellow;
+        }
+
+        .c-personTable__cell {
+          color: black;
+          text-decoration: underline $sun_yellow;
+        }
+      }
+
+      svg {
+        padding-top: 2px;
+      }
+
+      button.e-remove,
+      button.e-add {
+        padding: 1px 38.5px;
+        height: 24px;
+        width: 156px;
+        margin: 0 0 0 15px;
+      }
+    }
+
+    .c-personTable__listing__item.c-statusIndicator {
+      display: block;
+    }
+
+    .c-personTable__listing__item:nth-child(1) {
+      width: 170px;
+    }
+
+    /*  .c-personTable__listing__item:nth-child(2) {
+      width: 50px;
+    } */
+
+    .c-personTable__listing__item--modal:nth-child(1) {
+      width: 170px;
+    }
+
+    .c-personTable__listing__item--modal:nth-child(2) {
+      width: 50px;
+    }
+
+    .c-personTable__listing__item:first-of-type {
+      cursor: pointer;
+    }
+
+    .c-personTable__listing__item:last-of-type {
+      width: 190px;
+      padding: 0;
+      display: flex;
+      justify-content: flex-end;
+      margin-left: auto;
+    }
+
+    &--editable {
+      border-bottom: 1px solid $very_light-pink;
+
+      &:last-of-type {
+        border-bottom: none;
+      }
+    }
+  }
+
+  .e-captainImg {
+    margin-left: 2px;
+  }
+}
+
+.c-modal__content
+  .c-personTable
+  .c-personTable__listing
+  .c-personTable__listing__item:first-of-type {
+  cursor: default;
+}
+
+.c-personTable.loading {
+  max-width: 832px;
+  width: 78.5vw;
+  margin-bottom: 39px;
+}

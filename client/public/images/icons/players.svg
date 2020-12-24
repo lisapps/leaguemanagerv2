@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>icon/players</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="30.3588867%" y1="8.17871094%" x2="100%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#FFEB42" offset="0%"></stop>
+            <stop stop-color="#FFD31D" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="100%" y1="100%" x2="0%" y2="0%" id="linearGradient-2">
+            <stop stop-color="#FBB12E" offset="0%"></stop>
+            <stop stop-color="#FFD31D" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="icon/players" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-2" transform="translate(17.000000, 4.000000)">
+            <path d="M6.5,9.33333333 C10.0898509,9.33333333 13,12.2434825 13,15.8333333 L13,16 L0,16 L0,15.8333333 C-4.39629938e-16,12.2434825 2.91014913,9.33333333 6.5,9.33333333 Z M6.6,8 C4.390861,8 2.6,6.209139 2.6,4 C2.6,1.790861 4.390861,0 6.6,0 C8.809139,0 10.6,1.790861 10.6,4 C10.6,6.209139 8.809139,8 6.6,8 Z" id="Combined-Shape" fill="url(#linearGradient-1)"></path>
+            <path d="M10.5446167,3.29083222 C10.5446167,2.66666667 9.60418701,-2.7144204e-14 6.50646973,-1.0658141e-14 C3.40875244,5.82792196e-15 2.88134766,2.58508301 2.71429443,2.94656425 C2.54724121,3.3080455 6.56097202,2.8152656 7.59569218,3.03143311 C8.14914805,3.14705778 8.14914805,3.68338481 7.59569218,4.6404142 C9.56164186,4.28617118 10.5446167,3.83631053 10.5446167,3.29083222 Z" id="Oval" fill="#4A4A4A"></path>
+        </g>
+        <g id="Group" transform="translate(2.000000, 6.000000)">
+            <path d="M8.75,13.25 L9.25,13.25 C14.0824916,13.25 18,17.1675084 18,22 L0,22 C-5.91809532e-16,17.1675084 3.91750844,13.25 8.75,13.25 Z M9,12 C6.23857625,12 4,9.76142375 4,7 C4,4.23857625 6.23857625,2 9,2 C11.7614237,2 14,4.23857625 14,7 C14,9.76142375 11.7614237,12 9,12 Z" id="Combined-Shape" fill="url(#linearGradient-2)"></path>
+            <path d="M12.4129768,7.59866185 C13.3371444,8.27010892 12.9379176,6.01323897 11.2152964,0.828051998 C10.6550018,1.44601411 10.3748545,2.39932737 10.3748545,3.68799179 C10.3748545,5.62098841 11.0267254,6.59149125 12.4129768,7.59866185 Z" id="Oval" fill="#D8D8D8" transform="translate(11.635931, 4.271092) rotate(144.000000) translate(-11.635931, -4.271092) "></path>
+            <path d="M6.87408183,8.09394775 C9.194668,3.52286011 8.06066475,1.03729224 6.01328621,1.03729224 C4.77027187,2.647709 4.91086104,3.36556888 5.03286198,4.93577934 C5.2638602,6.31990135 6.02313612,7.33260751 6.87408183,8.09394775 Z" id="Oval" fill="#D8D8D8" transform="translate(6.559720, 4.565620) rotate(52.000000) translate(-6.559720, -4.565620) "></path>
+            <rect id="Rectangle" stroke="#FFFFFF" fill="#D8D8D8" x="10.5" y="18.5" width="1" height="1"></rect>
+        </g>
+    </g>
+</svg>

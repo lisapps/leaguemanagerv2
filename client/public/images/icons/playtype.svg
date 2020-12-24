@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 57.1 (101010) - https://sketch.com -->
+    <title>69A4ACC9-B253-4FD1-8A90-03D49C071926</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <linearGradient x1="100%" y1="51.6528926%" x2="0%" y2="48.4177196%" id="linearGradient-1">
+            <stop stop-color="#FFD521" offset="0%"></stop>
+            <stop stop-color="#FFEC42" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="0%" y1="0%" x2="100%" y2="100%" id="linearGradient-2">
+            <stop stop-color="#FFD51D" offset="0%"></stop>
+            <stop stop-color="#F7981F" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icon/playtype">
+            <rect id="Rectangle" fill="url(#linearGradient-1)" x="5" y="14" width="22" height="4"></rect>
+            <rect id="Rectangle" fill="#4A4A4A" x="26" y="14" width="1" height="5"></rect>
+            <rect id="Rectangle" fill="#4A4A4A" x="5" y="14" width="1" height="5"></rect>
+            <circle id="Oval" fill="url(#linearGradient-2)" cx="11" cy="7" r="3"></circle>
+            <circle id="Oval" fill="url(#linearGradient-2)" cx="21" cy="7" r="3"></circle>
+            <path d="M9.64075448,22.281509 L11,23.641 L12.3592455,22.281509 C12.7345908,21.9061637 13.3431458,21.9061637 13.718491,22.281509 C14.0938363,22.6568542 14.0938363,23.2654092 13.718491,23.6407545 L12.359,25 L13.718491,26.3592455 C14.0938363,26.7345908 14.0938363,27.3431458 13.718491,27.718491 C13.3431458,28.0938363 12.7345908,28.0938363 12.3592455,27.718491 L11,26.359 L9.64075448,27.718491 C9.2654092,28.0938363 8.65685425,28.0938363 8.28150896,27.718491 C7.90616368,27.3431458 7.90616368,26.7345908 8.28150896,26.3592455 L9.641,25 L8.28150896,23.6407545 C7.90616368,23.2654092 7.90616368,22.6568542 8.28150896,22.281509 C8.65685425,21.9061637 9.2654092,21.9061637 9.64075448,22.281509 Z" id="Combined-Shape" fill="url(#linearGradient-2)"></path>
+            <path d="M19.6407545,22.281509 L21,23.641 L22.3592455,22.281509 C22.7345908,21.9061637 23.3431458,21.9061637 23.718491,22.281509 C24.0938363,22.6568542 24.0938363,23.2654092 23.718491,23.6407545 L22.359,25 L23.718491,26.3592455 C24.0938363,26.7345908 24.0938363,27.3431458 23.718491,27.718491 C23.3431458,28.0938363 22.7345908,28.0938363 22.3592455,27.718491 L21,26.359 L19.6407545,27.718491 C19.2654092,28.0938363 18.6568542,28.0938363 18.281509,27.718491 C17.9061637,27.3431458 17.9061637,26.7345908 18.281509,26.3592455 L19.641,25 L18.281509,23.6407545 C17.9061637,23.2654092 17.9061637,22.6568542 18.281509,22.281509 C18.6568542,21.9061637 19.2654092,21.9061637 19.6407545,22.281509 Z" id="Combined-Shape" fill="url(#linearGradient-2)"></path>
+        </g>
+    </g>
+</svg>

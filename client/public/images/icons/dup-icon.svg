@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="14px" height="14px" viewBox="0 0 14 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 61 (101010) - https://sketch.com -->
+    <title>0E1CA25A-10F1-4A1B-9F47-64189100E072</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <polygon id="path-1" points="-2.27373675e-13 0 9 0 9 9 5 9 5 4.06059028 -2.27373675e-13 4.06059028"></polygon>
+    </defs>
+    <g id="Concepts-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Schedule/Set-Up" transform="translate(-863.000000, -306.000000)">
+            <g id="Dup-Icon" transform="translate(863.000000, 306.000000)">
+                <g id="Rectangle" transform="translate(5.000000, 0.000000)">
+                    <g id="Mask">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <use fill="#D8D8D8" opacity="0" xlink:href="#path-1"></use>
+                        <path d="M7.2,0 C8.19411255,0 9,0.80588745 9,1.8 L9,7.2 C9,8.19411255 8.19411255,9 7.2,9 L1.8,9 C0.80588745,9 0,8.19411255 0,7.2 L0,1.8 C0,0.80588745 0.80588745,0 1.8,0 L7.2,0 Z M7.125,1 L1.875,1 C1.39175084,1 1,1.39175084 1,1.875 L1,7.125 C1,7.60824916 1.39175084,8 1.875,8 L7.125,8 C7.60824916,8 8,7.60824916 8,7.125 L8,1.875 C8,1.39175084 7.60824916,1 7.125,1 Z" fill="#4A4A4A" fill-rule="nonzero" mask="url(#mask-2)"></path>
+                    </g>
+                </g>
+                <path d="M7.2,5 C8.19411255,5 9,5.80588745 9,6.8 L9,12.2 C9,13.1941125 8.19411255,14 7.2,14 L1.8,14 C0.80588745,14 0,13.1941125 0,12.2 L0,6.8 C0,5.80588745 0.80588745,5 1.8,5 L7.2,5 Z M7.125,6 L1.875,6 C1.39175084,6 1,6.39175084 1,6.875 L1,12.125 C1,12.6082492 1.39175084,13 1.875,13 L7.125,13 C7.60824916,13 8,12.6082492 8,12.125 L8,6.875 C8,6.39175084 7.60824916,6 7.125,6 Z" id="Mask" fill="#4A4A4A" fill-rule="nonzero"></path>
+            </g>
+        </g>
+    </g>
+</svg>

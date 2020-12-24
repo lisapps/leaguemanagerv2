@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 57.1 (101010) - https://sketch.com -->
+    <title>1126325B-4B48-47D3-A349-0ECC71D6BEFF</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <linearGradient x1="90.5%" y1="100%" x2="9.5%" y2="0%" id="linearGradient-1">
+            <stop stop-color="#FBB12E" offset="0%"></stop>
+            <stop stop-color="#FFD31D" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="118.403144%" y1="50%" x2="-19.6518594%" y2="50%" id="linearGradient-2">
+            <stop stop-color="#FFD521" offset="0%"></stop>
+            <stop stop-color="#FFEC42" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icon/players-min">
+            <g id="Group" transform="translate(2.000000, 6.000000)">
+                <path d="M9.25,13.25 C13.9961971,13.25 17.8597972,17.0288466 17.9962695,21.7420089 L18,22 L0,22 C-5.91809532e-16,17.1675084 3.91750844,13.25 8.75,13.25 L9.25,13.25 Z M9,2 C11.7614237,2 14,4.23857625 14,7 C14,9.76142375 11.7614237,12 9,12 C6.23857625,12 4,9.76142375 4,7 C4,4.23857625 6.23857625,2 9,2 Z" id="Combined-Shape" fill="url(#linearGradient-1)"></path>
+                <path d="M12.4129768,7.59866185 C13.3371444,8.27010892 12.9379176,6.01323897 11.2152964,0.828051998 C10.6550018,1.44601411 10.3748545,2.39932737 10.3748545,3.68799179 C10.3748545,5.62098841 11.0267254,6.59149125 12.4129768,7.59866185 Z" id="Oval" fill="#D8D8D8" transform="translate(11.635931, 4.271092) rotate(144.000000) translate(-11.635931, -4.271092) "></path>
+                <path d="M6.87408183,8.09394775 C9.194668,3.52286011 8.06066475,1.03729224 6.01328621,1.03729224 C4.77027187,2.647709 4.91086104,3.36556888 5.03286198,4.93577934 C5.2638602,6.31990135 6.02313612,7.33260751 6.87408183,8.09394775 Z" id="Oval" fill="#D8D8D8" transform="translate(6.559720, 4.565620) rotate(52.000000) translate(-6.559720, -4.565620) "></path>
+                <rect id="Rectangle" stroke="#FFFFFF" fill="#D8D8D8" x="10.5" y="18.5" width="2" height="1"></rect>
+            </g>
+            <path d="M28.281509,13.0321995 C28.7819693,13.5326599 28.7819693,14.3440665 28.281509,14.8445269 L22.8445269,20.281509 C22.3440665,20.7819693 21.5326599,20.7819693 21.0321995,20.281509 C20.5317392,19.7810486 20.5317392,18.969642 21.0321995,18.4691816 L26.4691816,13.0321995 C26.969642,12.5317392 27.7810486,12.5317392 28.281509,13.0321995 Z" id="Combined-Shape" fill="url(#linearGradient-2)" transform="translate(24.656854, 16.656854) rotate(-315.000000) translate(-24.656854, -16.656854) "></path>
+        </g>
+    </g>
+</svg>

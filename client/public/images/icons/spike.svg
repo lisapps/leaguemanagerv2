@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>icon/spike</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="100%" y1="100%" x2="0%" y2="2.13601879%" id="linearGradient-1">
+            <stop stop-color="#FFD521" offset="0%"></stop>
+            <stop stop-color="#FFEC42" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="0%" y1="100%" x2="100%" y2="0%" id="linearGradient-2">
+            <stop stop-color="#FFD51D" offset="0%"></stop>
+            <stop stop-color="#F7981F" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="icon/spike" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Rectangle" fill="url(#linearGradient-1)" transform="translate(16.000000, 25.000000) rotate(-360.000000) translate(-16.000000, -25.000000) " x="5" y="23" width="22" height="4"></rect>
+        <rect id="Rectangle" fill="#4A4A4A" transform="translate(27.500000, 25.500000) rotate(-360.000000) translate(-27.500000, -25.500000) " x="27" y="23" width="1" height="5"></rect>
+        <rect id="Rectangle" fill="#4A4A4A" transform="translate(4.500000, 25.500000) rotate(-360.000000) translate(-4.500000, -25.500000) " x="4" y="23" width="1" height="5"></rect>
+        <path d="M14.4504845,10.7485325 L22.5350393,10.7485325 C23.6396088,10.7485325 24.5350393,11.643963 24.5350393,12.7485325 C24.5350393,13.853102 23.6396088,14.7485325 22.5350393,14.7485325 L14.4504845,14.7485325 L14.4504845,16.7703602 C14.4504845,17.3105898 14.0125419,17.7485325 13.4723123,17.7485325 L13.2084544,17.7485325 C12.7465336,17.7485325 12.2988531,17.5886402 11.9414467,17.2960116 L7.32855175,13.5191768 C6.90122718,13.1693023 6.83844149,12.539258 7.18831598,12.1119334 C7.23045095,12.0604713 7.27761497,12.0133411 7.32910739,11.9712431 L11.9417486,8.20014413 C12.2989834,7.90808425 12.7462172,7.74853248 13.207645,7.74853248 L13.4723123,7.74853248 C14.0125419,7.74853248 14.4504845,8.18647512 14.4504845,8.72670475 L14.4504845,10.7485325 Z" id="Combined-Shape" fill="url(#linearGradient-2)" transform="translate(15.748532, 12.748532) rotate(-135.000000) translate(-15.748532, -12.748532) "></path>
+        <rect id="Rectangle" fill="#FFFFFF" transform="translate(20.707107, 12.707107) rotate(-135.000000) translate(-20.707107, -12.707107) " x="20.2071068" y="12.2071068" width="1" height="1"></rect>
+    </g>
+</svg>

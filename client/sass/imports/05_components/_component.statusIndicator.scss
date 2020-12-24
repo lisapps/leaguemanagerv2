@@ -1,0 +1,24 @@
+/* ======================================== */
+/* =                                      = */
+/*   Status indicator component             */
+/* =                                      = */
+/* ======================================== */
+
+.c-statusIndicator {
+	display: flex;
+    align-items: center;
+	.e-indicatorImg{
+		&--green {
+			fill: $apple_green;
+		}
+		&--yellow {
+			fill: $sun_yellow;
+		}
+		&--red {
+			fill: $red-pink;
+		}
+	}
+	.e-indicatorText {
+		margin-left: 7px;
+	}
+}

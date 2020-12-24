@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>icon/map</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="100%" y1="0%" x2="0%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#F7991F" offset="0%"></stop>
+            <stop stop-color="#FFD41D" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="0%" y1="100%" x2="100%" y2="0%" id="linearGradient-2">
+            <stop stop-color="#FFD521" offset="0%"></stop>
+            <stop stop-color="#FFEB42" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="icon/map" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="map" transform="translate(4.000000, 4.000000)">
+            <polygon id="Rectangle" fill="url(#linearGradient-1)" points="0 2.55888125 6 0.1484309 6 21.7865526 0 24.1484309"></polygon>
+            <polygon id="Rectangle" fill="url(#linearGradient-2)" transform="translate(9.000000, 12.148431) scale(-1, 1) translate(-9.000000, -12.148431) " points="6 2.55888125 12 0.1484309 12 21.7865526 6 24.1484309"></polygon>
+            <polygon id="Rectangle" fill="url(#linearGradient-1)" points="12 2.55888125 18 0.1484309 18 21.7865526 12 24.1484309"></polygon>
+            <polygon id="Rectangle" fill="url(#linearGradient-2)" transform="translate(21.000000, 12.148431) scale(-1, 1) translate(-21.000000, -12.148431) " points="18 2.55888125 24 0.1484309 24 21.7865526 18 24.1484309"></polygon>
+            <path d="M-1.77635684e-15,16.8697444 C2.09265137,16.8697444 3.4723148,13.2707208 7.67199707,13.7606135 C11.8716793,14.2505063 12.3293457,18.1588069 14.9810791,19.0042659 C17.6328125,19.8497248 18.6982422,18.8073957 18.6982422,16.5942317 C18.6982422,15.118789 17.284668,13.6368554 14.4575195,12.1484309" id="Path" stroke="#FFFFFF"></path>
+            <g id="Group-2" transform="translate(10.000000, 0.148431)">
+                <path d="M4.5,12.4575195 C7.5,8.94229895 9,6.33261261 9,4.62846051 C9,2.07223235 6.98528137,0 4.5,0 C2.01471863,0 0,2.07223235 0,4.62846051 C0,6.33261261 1.5,8.94229895 4.5,12.4575195 Z" id="Oval" fill="#4A4A4A"></path>
+                <circle id="Oval" fill="#D8D8D8" cx="4.5" cy="4.5" r="2.5"></circle>
+            </g>
+        </g>
+    </g>
+</svg>

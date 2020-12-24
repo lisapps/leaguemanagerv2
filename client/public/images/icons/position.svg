@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 59.1 (101010) - https://sketch.com -->
+    <title>CE0F4A36-D496-4ABC-8EDC-1761DFF484D4</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <linearGradient x1="0%" y1="0%" x2="100%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#FFD51D" offset="0%"></stop>
+            <stop stop-color="#F7981F" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="100%" y1="100%" x2="0%" y2="2.13601879%" id="linearGradient-2">
+            <stop stop-color="#FFD521" offset="0%"></stop>
+            <stop stop-color="#FFEC42" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Concepts-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Create-Location-Blank" transform="translate(-360.000000, -647.000000)">
+            <g id="bar/line_item_selected" transform="translate(344.000000, 640.000000)">
+                <g id="Group" transform="translate(16.000000, 3.500000)">
+                    <g id="icon/position" transform="translate(0.000000, 3.000000)">
+                        <path d="M3.9259431,11.3518862 L5.625,13.051 L7.3240569,11.3518862 C7.7932385,10.8827046 8.55393219,10.8827046 9.02311379,11.3518862 C9.4922954,11.8210678 9.4922954,12.5817615 9.02311379,13.0509431 L7.324,14.75 L9.02311379,16.4490569 C9.4922954,16.9182385 9.4922954,17.6789322 9.02311379,18.1481138 C8.55393219,18.6172954 7.7932385,18.6172954 7.3240569,18.1481138 L5.625,16.449 L3.9259431,18.1481138 C3.4567615,18.6172954 2.69606781,18.6172954 2.22688621,18.1481138 C1.7577046,17.6789322 1.7577046,16.9182385 2.22688621,16.4490569 L3.926,14.75 L2.22688621,13.0509431 C1.7577046,12.5817615 1.7577046,11.8210678 2.22688621,11.3518862 C2.69606781,10.8827046 3.4567615,10.8827046 3.9259431,11.3518862 Z" id="Combined-Shape" fill="url(#linearGradient-1)"></path>
+                        <path d="M14.375,3.5 C16.4460678,3.5 18.125,5.17893219 18.125,7.25 C18.125,9.32106781 16.4460678,11 14.375,11 C12.3039322,11 10.625,9.32106781 10.625,7.25 C10.625,5.17893219 12.3039322,3.5 14.375,3.5 Z M14.375,6 C13.6846441,6 13.125,6.55964406 13.125,7.25 C13.125,7.94035594 13.6846441,8.5 14.375,8.5 C15.0653559,8.5 15.625,7.94035594 15.625,7.25 C15.625,6.55964406 15.0653559,6 14.375,6 Z" id="Combined-Shape" fill="url(#linearGradient-2)"></path>
+                        <path d="M10.3125,4 C10.2089466,4 10.125,3.91605339 10.125,3.8125 L10.125,17.5625 C10.125,17.4589466 10.2089466,17.375 10.3125,17.375 C10.4160534,17.375 10.5,17.4589466 10.5,17.5625 L10.5,3.8125 C10.5,3.91605339 10.4160534,4 10.3125,4 Z" id="Rectangle" stroke="#979797" fill="#D8D8D8" transform="translate(10.312500, 10.687500) rotate(-45.000000) translate(-10.312500, -10.687500) "></path>
+                        <rect id="Rectangle" fill="#FFFFFF" x="3.125" y="17.25" width="1" height="1"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

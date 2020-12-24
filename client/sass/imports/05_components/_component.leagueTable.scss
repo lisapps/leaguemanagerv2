@@ -1,0 +1,206 @@
+/* ======================================== */
+/* =                                      = */
+/*   Card content component - team table     */
+/* =                                      = */
+/* ======================================== */
+
+.c-leagueTable {
+  max-width: 55em;
+  margin-bottom: 21px;
+  margin-left: 2px;
+  &__header {
+    height: 31px;
+    color: $brown_grey;
+    font-family: FuturaPTBold;
+    font-size: 1em;
+    font-weight: bold;
+    line-height: 2.5em;
+    border-bottom: 1px solid $very_light-pink;
+    display: flex;
+    flex-flow: row;
+    &__item {
+      width: 160px;
+      /* width: 14.942vw; */
+      /* &--leaguesPage {
+          width: 127px;
+        } */
+    }
+    &__item:first-of-type {
+      width: 13.4em;
+      padding-left: 2.8em;
+    }
+    &__item:last-of-type {
+      width: 170px;
+    }
+  }
+  &__listing {
+    height: 48px;
+    color: $greyish_brown;
+    font-family: FuturaPTDemi;
+    font-size: 1em;
+    font-weight: 500;
+    display: flex;
+    padding: 12px 0;
+    img {
+      width: 24px;
+      height: 24px;
+      vertical-align: middle;
+      margin-right: 12px;
+    }
+    &__item {
+      width: 160px;
+      /* width: 14.942vw; */
+      line-height: 24px;
+      color: $greyish_brown;
+      font-family: FuturaPTDemi;
+      font-size: 1em;
+      font-weight: 500;
+      padding: 0 8px 0 0;
+      /* display: table-cell; */
+      /* word-wrap: break-word;
+      word-break: break-all; */
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      @include for-size(phone-only) {
+        word-wrap: none;
+        word-break: unset;
+        line-height: unset;
+      }
+      svg {
+        padding-top: 2px;
+      }
+      .e-btn--admManagers {
+        margin-left: 143px;
+        @include for-size(phone-only) {
+          margin-left: 0;
+          width: fit-content;
+        }
+      }
+      .e-btn--admLeague {
+        margin-left: 13px;
+      }
+      .e-captain {
+        background: transparent;
+        border: 1px solid $sun_yellow;
+        border-radius: 50%;
+        width: 24px;
+        height: 24px;
+        margin-left: 12px;
+        &--teamCaptain {
+          background-image: url(../public/images/icons/captain.svg);
+          border: none;
+        }
+      }
+    }
+    .c-leagueTable__listing__item:last-of-type {
+      width: 320px;
+      padding: 0;
+      display: flex;
+      justify-content: flex-end;
+      .c-leagueTable__listing__cell {
+        color: $greyish_brown;
+        font-family: FuturaPTDemi;
+        font-size: 1em;
+        font-weight: 500;
+      }
+    }
+  }
+}
+
+.c-leagueTabTable {
+  max-width: 55em;
+  width: auto;
+  margin: auto;
+  margin-top: 34px;
+  margin-bottom: 39px;
+  &__header {
+    height: 31px;
+
+    color: $brown_grey;
+    font-family: FuturaPTBold;
+    font-size: 1em;
+    font-weight: bold;
+    line-height: 2.5em;
+    border-bottom: 1px solid $very_light-pink;
+    display: flex;
+    flex-flow: row;
+    &__item {
+      width: 150px;
+      &:first-of-type {
+        width: 170px;
+        padding-left: 2.8em;
+      }
+      &:last-of-type {
+        width: 170px;
+      }
+      &--small {
+        width: 105px;
+        padding-left: 1em;
+      }
+    }
+  }
+  &__listing {
+    height: 48px;
+    color: $greyish_brown;
+    font-family: FuturaPTDemi;
+    font-size: 1em;
+    font-weight: 500;
+    display: flex;
+    padding: 12px 0;
+    img {
+      width: 24px;
+      height: 24px;
+      vertical-align: middle;
+      margin-right: 12px;
+    }
+    &__item {
+      width: 150px;
+      line-height: 24px;
+      color: $greyish_brown;
+      font-family: FuturaPTDemi;
+      font-size: 1em;
+      font-weight: 500;
+      padding: 0 5px 0 0;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      @include for-size(phone-only) {
+        word-wrap: none;
+        word-break: unset;
+        line-height: unset;
+      }
+      &:first-of-type {
+        width: 170px;
+      }
+      &:last-of-type {
+        width: 170px;
+      }
+      &--small {
+        width: 105px;
+        padding-left: 1em;
+      }
+      .e-btn--admManagers {
+        margin-left: 143px;
+        @include for-size(phone-only) {
+          margin-left: 0;
+          width: fit-content;
+        }
+      }
+      .e-btn--admLeague {
+        margin-left: 13px;
+      }
+    }
+    .c-leagueTabTable__listing__item:last-of-type {
+      padding: 0;
+      display: flex;
+      justify-content: flex-end;
+      .c-leagueTabTable__listing__cell {
+        color: $greyish_brown;
+        font-family: FuturaPTDemi;
+        font-size: 1em;
+        font-weight: 500;
+      }
+    }
+  }
+}

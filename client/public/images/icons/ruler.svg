@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>icon/ruler</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="0%" y1="0%" x2="147.843424%" y2="148.797607%" id="linearGradient-1">
+            <stop stop-color="#FFD51D" offset="0%"></stop>
+            <stop stop-color="#F7981F" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="2.13601879%" x2="50%" y2="100%" id="linearGradient-2">
+            <stop stop-color="#FFD521" offset="0%"></stop>
+            <stop stop-color="#FFEC42" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="icon/ruler" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-4" transform="translate(15.020815, 17.020815) rotate(-45.000000) translate(-15.020815, -17.020815) translate(11.520815, 3.520815)">
+            <rect id="Rectangle" fill="url(#linearGradient-1)" x="0" y="0" width="7" height="27"></rect>
+            <rect id="Rectangle" fill="#D8D8D8" x="4.66666667" y="6.75" width="2.33333333" height="1.125"></rect>
+            <rect id="Rectangle" fill="#D8D8D8" x="4.66666667" y="19.125" width="2.33333333" height="1.125"></rect>
+            <rect id="Rectangle" fill="#D8D8D8" x="3.5" y="1.125" width="3.5" height="1.125"></rect>
+            <rect id="Rectangle" fill="#D8D8D8" x="3.5" y="12.375" width="3.5" height="1.125"></rect>
+            <rect id="Rectangle" fill="#D8D8D8" x="3.5" y="24.75" width="3.5" height="1.125"></rect>
+            <rect id="Rectangle" fill="#FFFFFF" x="3.5" y="12.375" width="2.16666667" height="1.125"></rect>
+            <rect id="Rectangle" fill="#FFFFFF" x="3.5" y="1.125" width="2.16666667" height="1.125"></rect>
+            <rect id="Rectangle" fill="#FFFFFF" x="3.5" y="24.75" width="2.16666667" height="1.125"></rect>
+        </g>
+        <polygon id="Rectangle" fill="url(#linearGradient-2)" transform="translate(25.074281, 9.250000) rotate(-330.000000) translate(-25.074281, -9.250000) " points="24.1191698 3.73925591 26.3616864 3.59923883 26.0144334 13.0373298 24.7868756 14.9007612 23.7868756 13.1687104"></polygon>
+        <polygon id="Rectangle" fill="#4A4A4A" transform="translate(22.257706, 13.641457) rotate(-330.000000) translate(-22.257706, -13.641457) " points="21.7137978 13.214792 22.8016148 13.2020958 22.2137978 14.0808174"></polygon>
+    </g>
+</svg>

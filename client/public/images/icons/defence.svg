@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>icon/defence</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="0%" y1="100%" x2="100%" y2="0%" id="linearGradient-1">
+            <stop stop-color="#FFD51D" offset="0%"></stop>
+            <stop stop-color="#F7981F" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="100%" y1="100%" x2="0%" y2="2.13601879%" id="linearGradient-2">
+            <stop stop-color="#FFD521" offset="0%"></stop>
+            <stop stop-color="#FFEC42" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="icon/defence" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M14.7019521,18.2134932 L22.7865068,18.2134932 C23.8910763,18.2134932 24.7865068,19.1089237 24.7865068,20.2134932 C24.7865068,21.3180627 23.8910763,22.2134932 22.7865068,22.2134932 L14.7019521,22.2134932 L14.7019521,24.2353209 C14.7019521,24.7755505 14.2640094,25.2134932 13.7237798,25.2134932 L13.4599219,25.2134932 C12.9980011,25.2134932 12.5503206,25.0536009 12.1929143,24.7609723 L7.58001927,20.9841375 C7.1526947,20.634263 7.08990901,20.0042187 7.4397835,19.5768941 C7.48191847,19.5254319 7.52908249,19.4783017 7.58057491,19.4362037 L12.1932162,15.6651048 C12.5504509,15.3730449 12.9976847,15.2134932 13.4591125,15.2134932 L13.7237798,15.2134932 C14.2640094,15.2134932 14.7019521,15.6514358 14.7019521,16.1916654 L14.7019521,18.2134932 Z" id="Combined-Shape" fill="url(#linearGradient-1)" transform="translate(16.000000, 20.213493) rotate(-90.000000) translate(-16.000000, -20.213493) "></path>
+        <rect id="Rectangle" fill="url(#linearGradient-2)" x="5" y="5" width="22" height="4"></rect>
+        <rect id="Rectangle" fill="#FFFFFF" transform="translate(19.500000, 22.926986) rotate(-90.000000) translate(-19.500000, -22.926986) " x="19" y="22.4269863" width="1" height="1"></rect>
+        <rect id="Rectangle" fill="#4A4A4A" x="26" y="5" width="1" height="5"></rect>
+        <rect id="Rectangle" fill="#4A4A4A" x="5" y="5" width="1" height="5"></rect>
+    </g>
+</svg>

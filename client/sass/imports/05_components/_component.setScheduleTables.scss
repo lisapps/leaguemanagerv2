@@ -1,0 +1,183 @@
+/* ======================================== */
+/* =                                      = */
+/*   schedule - setup courts tables             */
+/* =                                      = */
+/* ======================================== */
+
+.c-setSchedule {
+  &__division {
+    text-align: left;
+    border: none;
+    outline: none;
+    /* padding: 0px 3.4em 0 1em; */
+    font-family: FuturaPTBold;
+    font-size: 1.15em;
+    color: #4a4a4a;
+    text-transform: none;
+    width: auto;
+    background: none;
+    margin: 0 0 8px 0;
+    align-items: center;
+  }
+
+  .l-divisionContainer {
+    padding-bottom: 38px;
+    border-bottom: 1px solid $very_light-pink;
+    margin-bottom: 23px;
+  }
+
+  .l-divisionContainer:last-of-type {
+    border: none;
+    margin-bottom: 10px;
+  }
+
+  &__divTitle {
+    &::before {
+      content: "";
+      background: #ffffff;
+      height: 10px;
+      width: 10px;
+      display: inline-block;
+      border-radius: 100%;
+      vertical-align: initial;
+      margin-right: 0.55em;
+    }
+
+    @include component_labels;
+    padding: 1.75em 0 1.5em;
+
+    &--0 {
+      &.c-setSchedule__divTitle::before {
+        background: #fff;
+        border: 1px solid #979797;
+      }
+    }
+
+    &--1 {
+      &.c-setSchedule__divTitle::before {
+        background: #ff20f4;
+      }
+    }
+
+    &--2 {
+      &.c-setSchedule__divTitle::before {
+        background: #2092ff;
+      }
+    }
+
+    &--3 {
+      &.c-setSchedule__divTitle::before {
+        background: #20f6ff;
+      }
+    }
+
+    &--4 {
+      &.c-setSchedule__divTitle::before {
+        background: #20ffb7;
+      }
+    }
+
+    &--5 {
+      &.c-setSchedule__divTitle::before {
+        background: #91ff20;
+      }
+    }
+  }
+
+  &__courtTitle {
+    @include component_labels;
+  }
+
+  .c-setSchedule__dateTime {
+    height: 36px;
+    font-family: FuturaPTBold;
+    font-size: 1.15em;
+    color: #9b9c9b;
+  }
+
+  .c-setSchedule__setsPoints {
+    @include component_labels;
+  }
+
+  .c-setScheduleTable {
+    max-width: 830px;
+    width: 78.5vw;
+    margin-bottom: 21px;
+    margin-left: 1px;
+  }
+
+  .c-setScheduleTable__header {
+    height: 31px;
+    color: $brown_grey;
+    font-family: FuturaPTBold;
+    font-size: 1em;
+    font-weight: bold;
+    line-height: 2.5em;
+    border-bottom: 1px solid $very_light-pink;
+    display: flex;
+    flex-flow: row;
+
+    .c-setScheduleTable__header__item {
+      width: 200px;
+    }
+
+    .c-setScheduleTable__header__item:last-of-type {
+      width: 150px;
+      margin-left: 55px;
+    }
+  }
+
+  .c-setScheduleTable__listing {
+    height: 48px;
+    color: $greyish_brown;
+    font-family: FuturaPTDemi;
+    font-size: 1em;
+    font-weight: 500;
+    display: flex;
+    padding: 12px 0;
+
+    img {
+      width: 24px;
+      height: 24px;
+      vertical-align: middle;
+      margin-right: 12px;
+    }
+
+    .c-setScheduleTable__listing__item {
+      width: 200px;
+      display: flex;
+      line-height: 24px;
+      color: $greyish_brown;
+      font-family: FuturaPTDemi;
+      font-size: 1em;
+      font-weight: 500;
+      padding: 0 8px 0 0;
+      white-space: nowrap;
+      overflow: hidden;
+      height: 300px;
+    }
+
+    .c-setScheduleTable__listing__item:last-of-type {
+      width: 150px;
+      padding: 0;
+      display: flex;
+      justify-content: flex-end;
+      height: 300px;
+
+      .c-setScheduleTable__listing__cell {
+        color: $greyish_brown;
+        font-family: FuturaPTDemi;
+        font-size: 12px;
+        font-weight: 500;
+      }
+    }
+  }
+}
+
+.l-content > .c-bye {
+  display: block;
+}
+
+.l-content > .c-bye ~ .c-bye {
+  display: none;
+}

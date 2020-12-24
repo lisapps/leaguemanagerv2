@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>icon/clock</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="2.13601879%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#FFD521" offset="0%"></stop>
+            <stop stop-color="#FFEC42" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="0%" y1="6.123234e-15%" x2="100%" y2="100%" id="linearGradient-2">
+            <stop stop-color="#FFD51D" offset="0%"></stop>
+            <stop stop-color="#F7981F" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="icon/clock" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group" transform="translate(2.000000, 2.000000)">
+            <circle id="Oval" fill="url(#linearGradient-1)" cx="14" cy="14" r="14"></circle>
+            <circle id="Oval-Copy" fill="url(#linearGradient-2)" cx="14" cy="14" r="12"></circle>
+            <rect id="Rectangle" fill="#4A4A4A" x="13" y="3" width="2" height="1"></rect>
+            <rect id="Rectangle" fill="#FFFFFF" x="13" y="24" width="2" height="1"></rect>
+            <rect id="Rectangle" fill="#FFFFFF" transform="translate(16.058105, 10.573486) rotate(-315.000000) translate(-16.058105, -10.573486) " x="15.5581055" y="6.57348633" width="1" height="8" rx="0.5"></rect>
+            <path d="M16.8284271,13.0355339 L16.8284271,13.0355339 C17.1045695,13.0355339 17.3284271,13.2593915 17.3284271,13.5355339 L17.3284271,21.5355339 C17.3284271,21.8116763 17.1045695,22.0355339 16.8284271,22.0355339 L16.8284271,22.0355339 C16.5522847,22.0355339 16.3284271,21.8116763 16.3284271,21.5355339 L16.3284271,13.5355339 C16.3284271,13.2593915 16.5522847,13.0355339 16.8284271,13.0355339 Z" id="Rectangle" fill="#FFFFFF" transform="translate(16.828427, 17.535534) rotate(-45.000000) translate(-16.828427, -17.535534) "></path>
+            <ellipse id="Oval" fill="#D8D8D8" cx="4" cy="13.5" rx="1" ry="1"></ellipse>
+            <ellipse id="Oval" fill="#D8D8D8" transform="translate(7.950439, 21.695068) rotate(-30.000000) translate(-7.950439, -21.695068) " cx="7.95043945" cy="21.6950684" rx="1" ry="1"></ellipse>
+            <ellipse id="Oval" fill="#D8D8D8" transform="translate(8.116025, 5.933013) rotate(-330.000000) translate(-8.116025, -5.933013) " cx="8.1160254" cy="5.9330127" rx="1" ry="1"></ellipse>
+            <ellipse id="Oval" fill="#D8D8D8" transform="translate(20.116025, 5.933013) rotate(-30.000000) translate(-20.116025, -5.933013) " cx="20.1160254" cy="5.9330127" rx="1" ry="1"></ellipse>
+            <ellipse id="Oval" fill="#D8D8D8" cx="24" cy="13.5" rx="1" ry="1"></ellipse>
+            <circle id="Oval" fill="url(#linearGradient-1)" cx="13.5" cy="13.5" r="1.5"></circle>
+        </g>
+    </g>
+</svg>

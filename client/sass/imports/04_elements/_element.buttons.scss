@@ -1,0 +1,338 @@
+/* ======================================== */
+/* =                                      = */
+/*   Buttons that are not the base, but     */
+/*   appear on more than one screen         */
+/* =                                      = */
+/* ======================================== */
+
+button,
+.e-btn {
+  display: inline-block;
+  width: 156px;
+  height: 24px;
+  white-space: nowrap;
+  vertical-align: middle;
+  text-align: center;
+  text-decoration: none;
+  line-height: normal;
+  @include button_label;
+  text-transform: uppercase;
+  cursor: pointer;
+  user-select: none;
+  border: none;
+  border-radius: 12px;
+  position: relative;
+  /* padding: .3em 3em; */
+  margin: 0 0.125rem;
+  background: $sun_yellow;
+  @include transition(all, 0.25s, ease-out);
+  z-index: 1;
+
+  &:after {
+    background: linear-gradient(to right, #ffd521 0%, #ffec42 100%);
+    color: $greyish_brown;
+    opacity: 0;
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 100%;
+    @include transition(all, 0.25s, ease-out);
+    top: 0;
+    left: 0;
+    border-radius: 12px;
+    z-index: -1;
+  }
+
+  /* this weird hover, active and after set up prevents a blink that happens
+	while animating transition of solid to gradient and back. */
+  &:hover {
+    background-color: transparent;
+
+    &:after {
+      opacity: 1;
+      @include transition(all, 0.25s, ease-out);
+    }
+
+    &:active {
+      background-color: #ffec42;
+      opacity: 1;
+    }
+  }
+
+  &:active:after {
+    opacity: 0;
+    @include transition(all, 0.25s, ease-out);
+  }
+
+  &--lg {
+    width: 288px;
+  }
+
+  &--small {
+    width: 90px;
+    margin: 0 10px;
+
+    &:last-of-type {
+      width: 90px;
+      margin-left: 10px;
+    }
+  }
+
+  &--finalize {
+    /* width: 90px; */
+    margin: 40px 30px 0 10px;
+  }
+
+  &--secondary,
+  &--inactive {
+    background-color: $white;
+    border: 1px solid $sun_yellow;
+    // cursor: auto;
+    &:hover {
+      background-color: $white;
+
+      &:after {
+        background-color: $white;
+        opacity: 1;
+      }
+
+      &:active {
+        background-color: $white;
+        opacity: 1;
+      }
+    }
+
+    &:after {
+      background: $white;
+    }
+  }
+
+  &--inactive {
+    cursor: default;
+  }
+}
+
+.e-btn__plus,
+.e-btn__minus {
+  @include large_body; //text size
+  background: none;
+  border: none;
+  cursor: pointer;
+  text-transform: uppercase;
+  /* float: right; */
+  line-height: 47px;
+  display: flex;
+  width: fit-content;
+  max-width: 26em;
+  justify-content: center;
+
+  &--view {
+    font-family: FuturaPTDemi;
+    /* width: 160px !important; */
+    line-height: initial !important;
+    margin-top: 15px;
+    float: right;
+    @include for-size(phone-only) {
+      width: fit-content !important;
+      float: none;
+    }
+  }
+
+  &--greyBtn {
+    line-height: 1.8em;
+    text-align: center;
+    padding: 0 0.5em;
+    border-radius: 12px;
+    max-width: unset;
+    white-space: nowrap;
+
+    &:hover {
+      background: #ebebeb;
+    }
+  }
+
+  .e-minustext {
+    background: url("../public/images/icons/minus.svg") no-repeat 0px 23px;
+    width: auto;
+    margin-right: 2px;
+    text-transform: uppercase;
+    /* float: right; */
+    line-height: 47px;
+    display: flex;
+    width: auto;
+    padding-left: 18px;
+    justify-content: center;
+
+    &:hover {
+      background: url("../public/images/icons/light_minus.svg") no-repeat 0px
+        23px;
+    }
+  }
+
+  .e-forwardSlash {
+    background: url("../public/images/icons/forward-slash.svg") no-repeat 0px
+      13px;
+    width: 18px;
+    height: auto;
+    margin: 0 2px;
+  }
+
+  .e-plustext {
+    font-family: FuturaPT;
+    font-size: 1em;
+    margin-right: 5px;
+  }
+}
+
+@include for-size(phone-only) {
+  .e-btn__plus,
+  .e-btn__minus {
+    line-height: initial;
+  }
+}
+
+.e-btn__x {
+  background: url("../public/images/icons/x-circle.svg") no-repeat 0px;
+  background-size: 1.3em;
+  width: 1.7em;
+  height: 1.4em;
+  margin: 3px 14.5px 0 1px;
+  display: none;
+  &:hover {
+    border: 1px solid #ffd420;
+    border-radius: 50%;
+    cursor: pointer;
+    width: 1.72em;
+    height: 1.32em;
+    margin: 4px 15px 0 0px;
+  }
+
+  &--matches {
+    width: 1.7em;
+    height: 1.4em;
+    margin: 3px 15px 0 0;
+    &:hover {
+      width: 1.38em;
+      height: 1.3em;
+      margin: 2px 20.5px 0 -1px;
+    }
+  }
+}
+
+.e-btn__select {
+  background: url("../public/images/icons/select-circle.svg") no-repeat 0px;
+  width: 14px;
+  height: 14px;
+  margin: 23px 15px 0 0;
+  display: none;
+
+  &:hover {
+    background: url("../public/images/icons/select-circle-pressed.svg")
+      no-repeat 0px;
+    cursor: pointer;
+    width: 14px;
+    height: 14px;
+    margin: 23px 15px 0 0px;
+  }
+}
+
+.e-btn__addSet {
+  background: url("../public/images/add.svg") no-repeat 1px 0.5px;
+  width: 16px;
+  height: 15px;
+  padding: 2px 2.5px;
+  margin: 20px 12px 0 0;
+  &:hover {
+    border: 1px solid #ffd420;
+    background-position: 0;
+    border-radius: 50%;
+    cursor: pointer;
+    width: 15px;
+    height: 15px;
+    padding: 0;
+    margin: 20px 13px 0 0;
+  }
+}
+
+.e-circleBtn {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  border: 2px solid $sun_yellow;
+  background-color: transparent;
+  padding: 1px;
+  img {
+    opacity: 0;
+    &.clicked {
+      opacity: 1;
+      width: 12px !important;
+      height: 12px !important;
+      margin-right: 0px !important;
+    }
+  }
+  &:hover {
+    border: 3px solid $sun_yellow;
+    padding: 1px;
+    img {
+      opacity: 1;
+      width: 12px !important;
+      height: 12px !important;
+      margin-right: 0px !important;
+    }
+    &:after {
+      background: unset;
+      transition: none;
+    }
+    &:active {
+      background: unset;
+    }
+    &:active:after {
+      background: unset;
+      transition: none;
+    }
+  }
+  &:after {
+    background: unset;
+    transition: none;
+  }
+  &:active:after {
+    background: unset;
+    transition: none;
+  }
+}
+
+.e-restart {
+  @include large_body;
+  width: 75px;
+  height: 20px;
+  line-height: 20px;
+  text-transform: uppercase;
+  display: flex;
+  cursor: pointer;
+  &::before {
+    content: url(../public/images/icons/restarts.svg);
+    padding-right: 5px;
+    position: relative;
+  }
+  &.disabled {
+    cursor: default;
+      color: #9b9b9b;
+    &::before {
+      content: none;
+    }
+  }
+}
+
+.e-duplicate {
+  color: $greyish_brown;
+  font-family: FuturaPTDemi;
+  font-size: 1.1em;
+  text-transform: uppercase;
+  cursor: pointer;
+  &::before {
+    content: url(../public/images/icons/dup-icon.svg);
+    padding-right: 5px;
+    position: relative;
+    top: 2px;
+  }
+}

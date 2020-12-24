@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>icon/email</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="-7.04101562%" y1="0%" x2="100%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#FFD51D" offset="0%"></stop>
+            <stop stop-color="#F7981F" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="2.13601879%" x2="50%" y2="100%" id="linearGradient-2">
+            <stop stop-color="#FFD521" offset="0%"></stop>
+            <stop stop-color="#FFEC42" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="100%" y1="100%" x2="0%" y2="2.13601879%" id="linearGradient-3">
+            <stop stop-color="#FFD521" offset="0%"></stop>
+            <stop stop-color="#FFEC42" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="icon/email" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M11,13 L22,13 L22,22.5 C22,25.5375661 19.5375661,28 16.5,28 L16.5,28 C13.4624339,28 11,25.5375661 11,22.5 L11,13 Z" id="Rectangle" fill="url(#linearGradient-1)"></path>
+        <path d="M16.4979248,13 L22,13 L22,22.4919434 C22,25.533959 19.533959,28 16.4919434,28 L16.4979248,13 Z" id="Rectangle" fill="url(#linearGradient-2)"></path>
+        <rect id="Rectangle" fill="#FFFFFF" x="16" y="13" width="1" height="6"></rect>
+        <path d="M17.3413086,12.9372559 L17.3413086,7.49215698 C17.3413086,6.11577669 16.2255319,5 14.8491516,5 L14.8413086,5 C13.4692599,5 12.3569946,6.11226525 12.3569946,7.48431396 L12.3569946,7.48431396 C12.3569946,8.85636268 11.2447294,9.96862793 9.87268066,9.96862793 L5.51403809,9.96862793 C4.96175334,9.96862793 4.51403809,9.52091268 4.51403809,8.96862793 L4.51403809,6.01147461" id="Path-5" stroke="#4A4A4A"></path>
+        <rect id="Rectangle" fill="url(#linearGradient-3)" transform="translate(4.500000, 6.000000) rotate(-270.000000) translate(-4.500000, -6.000000) " x="3" y="5" width="3" height="2"></rect>
+        <rect id="Rectangle" fill="#D8D8D8" transform="translate(4.500000, 5.000000) rotate(-270.000000) translate(-4.500000, -5.000000) " x="4" y="4" width="1" height="2"></rect>
+    </g>
+</svg>

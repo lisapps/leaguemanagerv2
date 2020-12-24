@@ -1,0 +1,249 @@
+/* ======================================== */
+/* =                                      = */
+/*   accordion	         			        */
+/* =                                      = */
+/* ======================================== */
+
+// component container
+.c-accordion {
+  /* border-bottom: 1px solid #D8D8D8; */
+  min-height: 4.2em;
+  padding-top: 15px;
+  // max-width: 832px;
+  // width: 78.5vw;
+  @include for-size(phone-only) {
+    width: fit-content;
+    margin-left: 5px;
+  }
+
+  &--dashboard {
+    min-height: 5em;
+    width: 60vw;
+
+    .e-leagueImage {
+      margin-top: 4px;
+    }
+  }
+
+  &--players {
+    /* display: flex; */
+    padding-bottom: 17px;
+  }
+
+  &--disabled {
+    width: auto;
+  }
+
+  &--border {
+    border-bottom: 1px solid $very_light-pink;
+  }
+
+  //button class
+  &__btn {
+    cursor: pointer;
+    min-height: 46px;
+    text-align: left;
+    border: none;
+    outline: none;
+    padding: 0px 3.4em 0 1em;
+    font-family: FuturaPTBold;
+    font-size: 1.2em;
+    color: #4a4a4a;
+    text-transform: none;
+    width: auto;
+    background: none;
+    // background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg"><circle cx="10" cy="10" r="5" stroke-width="1" stroke="#979797" fill="#fff" /></svg>') left top 2px no-repeat;
+    margin: 0 0 8px 0;
+    align-items: center;
+    line-height: 47px;
+
+    &--centeredLarge {
+      width: 93%;
+      margin-left: 15px;
+      height: auto;
+
+      @include for-size(phone-only) {
+        width: 75%;
+        margin-left: 5px;
+      }
+    }
+
+    &--centeredSmall {
+      width: fit-content;
+      margin: -25px 8px 5px 12px;
+    }
+
+    &--inactive {
+      min-height: 36px;
+      display: inline-flex;
+      text-align: left;
+      border: none;
+      outline: none;
+      padding: 0px 3.4em 0 1em;
+      font-family: FuturaPTBold;
+      font-size: 1em;
+      color: #4a4a4a;
+      text-transform: none;
+      width: auto;
+      background: none;
+      margin: 0 0 15px 0;
+      align-items: center;
+    }
+
+    &--playertab {
+      min-height: 36px;
+      line-height: 36px;
+    }
+
+    &:hover,
+    &:hover:active {
+      background: transparent;
+    }
+
+    &:active {
+      //background: transparent;
+    }
+
+    &:after {
+      content: url(../public/images/icons/expand.svg);
+      position: absolute;
+      width: 12px;
+      // height: 12px;
+      z-index: -1;
+      margin: 1px 0 0 25px;
+      right: 15px;
+      background: transparent;
+      top: auto;
+      left: auto;
+      border: none;
+      opacity: 1;
+    }
+
+    &.active:after {
+      transform: rotate(90deg);
+      margin-top: 4px;
+      background: transparent;
+      -webkit-transition: all 0.25s ease-out;
+      -moz-transition: all 0.25s ease-out;
+      -ms-transition: all 0.25s ease-out;
+      -o-transition: all 0.25s ease-out;
+      transition: all 0.25s ease-out;
+    }
+  }
+
+  // panel content container
+  &__panel {
+    transition: max-height 0.2s ease-out;
+    margin: 0.83em auto 1.2em;
+    &--empty {
+      border-top: 1px solid #d8d8d8;
+    }
+  }
+
+  &__header {
+    display: flex;
+    justify-content: space-between;
+
+    @include for-size(phone-only) {
+      justify-content: normal;
+      flex-flow: column;
+    }
+
+    .c-accordion__btn::after {
+      content: url("../public/images/icons/expand.svg");
+      position: absolute;
+      width: 12px;
+      // height: 12px;
+      z-index: -1;
+      margin: 1px 0 0 25px;
+      right: auto;
+      background: transparent;
+      border: none;
+      opacity: 1;
+    }
+
+    .c-accordion__btn.active:after {
+      transform: rotate(90deg);
+      margin-top: 2px;
+      background: transparent;
+      -webkit-transition: all 0.25s ease-out;
+      -moz-transition: all 0.25s ease-out;
+      -ms-transition: all 0.25s ease-out;
+      -o-transition: all 0.25s ease-out;
+      transition: all 0.25s ease-out;
+    }
+
+    .c-textBtnContainer {
+      width: fit-content;
+      /* min-width: 250px; */
+      display: flex;
+      &--single {
+        justify-content: flex-end;
+      }
+      @include for-size(phone-only) {
+        min-width: unset;
+        flex-flow: column;
+      }
+    }
+  }
+
+  // Modifier to create colored discs for divisions
+  .tab--circles & {
+    &__btn {
+      &::before {
+        // Circle
+        content: "";
+        background: #ffffff;
+        height: 10px;
+        width: 10px;
+        display: inline-block;
+        border-radius: 100%;
+        vertical-align: initial;
+        margin-right: 0.55em;
+      }
+    }
+
+    &:nth-child(6n + 1) {
+      .c-accordion__btn:before {
+        background: #fff;
+        border: 1px solid #979797;
+      }
+    }
+
+    &:nth-child(6n + 2) {
+      .c-accordion__btn:before {
+        background: #ff20f4;
+      }
+    }
+
+    &:nth-child(6n + 3) {
+      .c-accordion__btn:before {
+        background: #2092ff;
+      }
+    }
+
+    &:nth-child(6n + 4) {
+      .c-accordion__btn:before {
+        background: #20f6ff;
+      }
+    }
+
+    &:nth-child(6n + 5) {
+      .c-accordion__btn:before {
+        background: #20ffb7;
+      }
+    }
+
+    &:nth-child(6n + 6) {
+      .c-accordion__btn:before {
+        background: #91ff20;
+      }
+    }
+  }
+}
+
+.remove-active {
+  .e-btn__x {
+    display: block;
+  }
+}

@@ -1,0 +1,26 @@
+.c-header {
+  border-bottom: 2px solid $sun_yellow;
+  /* grid-area: header; */
+  width: 100%;
+  min-height: 4.17em;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  position: sticky;
+  top: 0;
+  //z-index set to 0 so toast alerts can show above it.
+  z-index: 2;
+  background-color: #f9fafc;
+  .c-header__right {
+    display: flex;
+    .e-search,
+    .e-notifications,
+    .c-login,
+    .c-account {
+      display: inline-flex;
+      align-items: center;
+    }
+  }
+}
+
+.c-login:hover {cursor: pointer;}

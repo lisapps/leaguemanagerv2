@@ -1,0 +1,306 @@
+/* ----------------------------------------------------------- */
+/* == dialog box  */
+/* ----------------------------------------------------------- */
+
+.dialog-modal * {
+  box-sizing: border-box;
+}
+
+.dialog-modal {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1000;
+  display: flex;
+  //   visibility: hidden;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+  -webkit-overflow-scrolling: touch;
+  background: rgba(0, 0, 0, 0.5);
+  //   opacity: 0;
+  user-select: none;
+  cursor: pointer;
+
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+
+/* confirm and alerts
+-------------------------------------------------------------- */
+
+.dialog-modal--confirm .dialog-modal-box {
+  text-align: center;
+}
+
+/* modal
+-------------------------------------------------------------- */
+
+// .dialog-modal--noOverlayClose {
+//   cursor: default;
+// }
+
+// .dialog-modal--noClose .dialog-modal__close {
+//   display: none;
+// }
+
+// .dialog-modal__close {
+//   position: fixed;
+//   top: 2rem;
+//   right: 2rem;
+//   z-index: 1000;
+//   padding: 0;
+//   width: 2rem;
+//   height: 2rem;
+//   border: none;
+//   background-color: transparent;
+//   color: #fff;
+//   cursor: pointer;
+// }
+
+// .dialog-modal__close:hover {
+//   background-color: transparent;
+// }
+
+// .dialog-modal__close:hover,
+// button.dialog-modal__close:hover:active,
+// .dialog-modal__close.e-btn:hover:active,
+// button.dialog-modal__close::after,
+// .dialog-modal__close:hover::after {
+//   background-color: transparent;
+// }
+
+// .dialog-modal__close svg * {
+//   fill: currentColor;
+// }
+
+// .dialog-modal__closeLabel {
+//   display: none;
+// }
+
+// .dialog-modal__close:hover {
+//   color: #fff;
+// }
+
+.dialog-modal-box {
+  position: relative;
+  flex-shrink: 0;
+  margin-top: auto;
+  margin-bottom: auto;
+  width: 400px;
+  min-height: 240px;
+  border-radius: 12px;
+  background: #fff;
+  opacity: 1;
+  cursor: auto;
+  will-change: transform, opacity;
+}
+
+.dialog-modal-box__content {
+  padding: 3rem 3rem;
+}
+
+.dialog-modal-box__content h1 {
+  text-align: center;
+  line-height: 38px;
+}
+
+.dialog-modal-box__footer {
+  padding: 1.5rem 2rem;
+  width: auto;
+  border-bottom-right-radius: 12px;
+  border-bottom-left-radius: 12px;
+  cursor: auto;
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+}
+
+.dialog-modal-box__footer::after {
+  display: table;
+  clear: both;
+  content: "";
+}
+
+.dialog-modal-box__footer--sticky {
+  position: fixed;
+  bottom: -200px; /* TODO : find a better way */
+  z-index: 10001;
+  opacity: 1;
+  transition: bottom 0.3s ease-in-out 0.3s;
+}
+
+/* state
+-------------------------------------------------------------- */
+
+.dialog-enabled {
+  position: fixed;
+  right: 0;
+  left: 0;
+  overflow: hidden;
+}
+
+.dialog-modal--visible .dialog-modal-box__footer {
+  bottom: 0;
+}
+
+.dialog-enabled .dialog-content-wrapper {
+  filter: blur(8px);
+}
+
+.dialog-modal--visible {
+  visibility: visible;
+  opacity: 1;
+}
+
+.dialog-modal--visible .dialog-modal-box {
+  animation: scale 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55) forwards;
+}
+
+.dialog-modal--overflow {
+  overflow-y: scroll;
+  padding-top: 8vh;
+}
+
+/* btn
+-------------------------------------------------------------- */
+
+.dialog-btn {
+  display: inline-block;
+  margin: 0 0.5rem;
+  /* padding: 1rem 2rem; */
+  border: none;
+  background-color: grey;
+  box-shadow: none;
+  color: #fff;
+  vertical-align: middle;
+  text-decoration: none;
+  font-size: inherit;
+  font-family: inherit;
+  line-height: normal;
+  cursor: pointer;
+  transition: background-color 0.4s ease;
+}
+
+.dialog-btn--primary {
+  background-color: #ffd420;
+}
+
+.dialog-btn--danger {
+  background-color: #e74c3c;
+}
+
+.dialog-btn--default {
+  background-color: white;
+  border: 1px solid #ffd420;
+}
+
+.dialog-btn--pull-left {
+  float: left;
+}
+
+.dialog-btn--pull-right {
+  float: right;
+}
+
+/* responsive
+-------------------------------------------------------------- */
+
+@media (max-width: 540px) {
+  .dialog-modal {
+    top: 0px;
+    display: block;
+    padding-top: 60px;
+    width: 100%;
+  }
+
+  .dialog-modal-box {
+    width: auto;
+    border-radius: 0;
+  }
+
+  .dialog-modal-box__content {
+    overflow-y: scroll;
+  }
+
+  .dialog-modal--noClose {
+    top: 0;
+  }
+
+  .dialog-modal--noOverlayClose {
+    padding-top: 0;
+  }
+
+  .dialog-modal-box__footer .dialog-btn {
+    display: block;
+    float: none;
+    margin-bottom: 1rem;
+    width: 100%;
+  }
+
+  .dialog-modal__close {
+    top: 0;
+    right: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 60px;
+    border: none;
+    background-color: #2c3e50;
+    box-shadow: none;
+    color: #fff;
+  }
+
+  .dialog-modal__closeLabel {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 1.6rem;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+      "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+      "Helvetica Neue", sans-serif;
+  }
+
+  .dialog-modal__closeIcon {
+    display: inline-block;
+    margin-right: 0.8rem;
+    width: 1.6rem;
+    vertical-align: middle;
+    font-size: 0;
+  }
+}
+
+@supports (
+  (-webkit-backdrop-filter: blur(12px)) or (backdrop-filter: blur(12px))
+) {
+  .dialog-modal:before {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    content: "";
+    backdrop-filter: blur(18px);
+
+    -webkit-backdrop-filter: blur(18px);
+  }
+
+  .dialog-enabled .dialog-content-wrapper {
+    filter: none;
+  }
+}
+
+/* animations
+-------------------------------------------------------------- */
+
+@keyframes scale {
+  0% {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 59.1 (101010) - https://sketch.com -->
+    <title>2D336106-6AE7-4F02-A487-E92EEBE7DFBF</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <linearGradient x1="100%" y1="98.2727051%" x2="50%" y2="0%" id="linearGradient-1">
+            <stop stop-color="#FFD521" offset="0%"></stop>
+            <stop stop-color="#FFEC42" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="37.5%" y1="0%" x2="62.5%" y2="100%" id="linearGradient-2">
+            <stop stop-color="#FFD51D" offset="0%"></stop>
+            <stop stop-color="#F7981F" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Concepts-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Create-Location-Blank" transform="translate(-360.000000, -611.000000)">
+            <g id="bar/line_item_selected" transform="translate(344.000000, 604.000000)">
+                <g id="Group" transform="translate(16.000000, 3.500000)">
+                    <g id="icon/adjust" transform="translate(0.000000, 3.000000)">
+                        <circle id="Oval" fill="url(#linearGradient-1)" transform="translate(10.000000, 10.999971) rotate(-45.000000) translate(-10.000000, -10.999971) " cx="10" cy="10.9999711" r="6.25"></circle>
+                        <path d="M10.8973451,19.4596798 C10.907742,19.4470913 10.931917,16.3949946 10.8973451,13.2096785 C10.8641092,10.1474445 10.9005149,6.94535932 10.8973451,6.95967978 C7.45547685,6.95967978 4.66529131,9.75793749 4.66529131,13.2097039 C4.66529131,16.6614703 7.45547685,19.4596798 10.8973451,19.4596798 Z" id="Oval" fill="url(#linearGradient-2)" transform="translate(7.790291, 13.209680) rotate(-45.000000) translate(-7.790291, -13.209680) "></path>
+                        <path d="M8.57665823,10.2374123 L14.2504356,4.57624225 C14.8534318,3.97458592 15.8296614,3.97458592 16.4326576,4.57624225 C17.0339226,5.17617121 17.0350056,6.1499313 16.4350767,6.75119628 C16.4342712,6.75200354 16.4334649,6.7528099 16.4326576,6.75361536 L10.7588803,12.4147855 C10.1558841,13.0164418 9.17965443,13.0164418 8.57665823,12.4147855 C7.97539324,11.8148565 7.97431018,10.8410964 8.57423915,10.2398314 C8.57504461,10.2390242 8.57585097,10.2382178 8.57665823,10.2374123 Z" id="Rectangle-2" fill="#4A4A4A"></path>
+                        <circle id="Oval" fill="#D8D8D8" cx="15.3125" cy="5.6875" r="1"></circle>
+                        <circle id="Oval" fill="#FFFFFF" transform="translate(10.000000, 11.000000) scale(-1, -1) translate(-10.000000, -11.000000) " cx="10" cy="11" r="1"></circle>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>icon/star</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="76.0697798%" y1="74.6844952%" x2="19.3181818%" y2="21.7684659%" id="linearGradient-1">
+            <stop stop-color="#FFD522" offset="0%"></stop>
+            <stop stop-color="#FFEB42" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="73.9595853%" y1="23.4149639%" x2="27.5015024%" y2="74.6844952%" id="linearGradient-2">
+            <stop stop-color="#F7991F" offset="0%"></stop>
+            <stop stop-color="#FFD41D" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="icon/star" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="star" transform="translate(-1.000000, 2.000000)">
+            <polygon id="Star" fill="url(#linearGradient-1)" points="27.5 8.25 24.2671811 9.94959347 24.8845946 6.34979673 22.2691892 3.80040653 25.8835906 3.27520327 27.5 0 29.1164094 3.27520327 32.7308108 3.80040653 30.1154054 6.34979673 30.7328189 9.94959347"></polygon>
+            <path d="M13,21.5 L7.15226387,24.5743368 C6.66341929,24.8313376 6.05879213,24.6433911 5.80179132,24.1545465 C5.69945225,23.959886 5.66413758,23.736918 5.70131442,23.5201603 L6.81813264,17.0086105 L2.08721474,12.3971052 C1.69173116,12.011604 1.68363885,11.3784908 2.06914007,10.9830072 C2.22264867,10.8255235 2.42379108,10.7230364 2.64142811,10.6914119 L9.17939586,9.74138954 L12.1032639,3.81698575 C12.3476862,3.32173209 12.9473121,3.11839309 13.4425657,3.36281539 C13.6397783,3.46014562 13.7994058,3.61977315 13.8967361,3.81698575 L16.8206041,9.74138954 L23.3585719,10.6914119 C23.9051167,10.7708295 24.2837982,11.2782723 24.2043806,11.8248172 C24.1727561,12.0424542 24.0702689,12.2435966 23.9127853,12.3971052 L19.1818674,17.0086105 L20.2986856,23.5201603 C20.3920466,24.0644968 20.0264588,24.5814527 19.4821223,24.6748137 C19.2653647,24.7119906 19.0423966,24.6766759 18.8477361,24.5743368 L13,21.5 Z" id="Star" fill="url(#linearGradient-2)"></path>
+            <path d="M27.5,12.5 L27.5,17.4072266" id="Line" stroke="#D8D8D8" fill="#D8D8D8" stroke-linecap="round"></path>
+            <path d="M29.5,11.5 L29.5,14.4072266" id="Line" stroke="#D8D8D8" fill="#D8D8D8" stroke-linecap="round"></path>
+            <path d="M25.5,11.5 L25.5,12.5" id="Line" stroke="#D8D8D8" fill="#D8D8D8" stroke-linecap="round"></path>
+            <rect id="Rectangle" fill="#FFFFFF" x="16" y="11" width="2" height="2"></rect>
+        </g>
+    </g>
+</svg>

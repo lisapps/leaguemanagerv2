@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>icon/passing</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="0%" y1="100%" x2="100%" y2="0%" id="linearGradient-1">
+            <stop stop-color="#FFD51D" offset="0%"></stop>
+            <stop stop-color="#F7981F" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="0%" y1="0%" x2="106.451101%" y2="109.985352%" id="linearGradient-2">
+            <stop stop-color="#FFD51D" offset="0%"></stop>
+            <stop stop-color="#F7981F" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="100%" y1="100%" x2="0%" y2="2.13601879%" id="linearGradient-3">
+            <stop stop-color="#FFD521" offset="0%"></stop>
+            <stop stop-color="#FFEC42" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="icon/passing" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M8.98941218,21 L14.9894122,21 C16.0939817,21 16.9894122,21.8954305 16.9894122,23 C16.9894122,24.1045695 16.0939817,25 14.9894122,25 L8.98941218,25 L8.98941218,27.0218277 C8.98941218,27.5620574 8.55146954,28 8.01123991,28 L7.8038863,28 C7.30779211,28 6.82940323,27.8156245 6.46162844,27.4826813 L2.32887875,23.7413406 C1.91944761,23.3706864 1.88801276,22.7383022 2.25866703,22.3288711 C2.28089384,22.3043189 2.30432663,22.2808862 2.32887875,22.2586594 L6.46162844,18.5173187 C6.82940323,18.1843755 7.30779211,18 7.8038863,18 L8.01123991,18 C8.55146954,18 8.98941218,18.4379426 8.98941218,18.9781723 L8.98941218,21 Z" id="Combined-Shape" fill="url(#linearGradient-1)"></path>
+        <path d="M20.9941103,21 L27.9941103,21 C29.0986798,21 29.9941103,21.8954305 29.9941103,23 C29.9941103,24.1045695 29.0986798,25 27.9941103,25 L20.9941103,25 L20.9941103,27.0218277 C20.9941103,27.5620574 20.5561676,28 20.015938,28 L19.700858,28 C19.2703196,28 18.8512745,27.8610672 18.5060141,27.6038541 L13.4026394,23.8019271 C12.9597473,23.47198 12.8681873,22.8454701 13.1981343,22.402578 C13.2560328,22.3248601 13.3249215,22.2559715 13.4026394,22.1980729 L18.5060141,18.3961459 C18.8512745,18.1389328 19.2703196,18 19.700858,18 L20.015938,18 C20.5561676,18 20.9941103,18.4379426 20.9941103,18.9781723 L20.9941103,21 Z" id="Combined-Shape" fill="url(#linearGradient-2)" transform="translate(21.497055, 23.000000) rotate(-180.000000) translate(-21.497055, -23.000000) "></path>
+        <rect id="Rectangle" fill="#FFFFFF" x="7" y="26" width="1" height="1"></rect>
+        <rect id="Rectangle" fill="#D8D8D8" transform="translate(23.500000, 19.500000) scale(-1, 1) translate(-23.500000, -19.500000) " x="23" y="19" width="1" height="1"></rect>
+        <rect id="Rectangle" fill="url(#linearGradient-3)" x="5" y="5" width="22" height="4"></rect>
+        <rect id="Rectangle" fill="#4A4A4A" x="26" y="5" width="1" height="5"></rect>
+        <rect id="Rectangle" fill="#4A4A4A" x="5" y="5" width="1" height="5"></rect>
+    </g>
+</svg>

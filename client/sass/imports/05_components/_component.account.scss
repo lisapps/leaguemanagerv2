@@ -1,0 +1,53 @@
+/* ======================================== */
+/* =                                      = */
+/*   Account/User info in header & nav      */
+/* =                                      = */
+/* ======================================== */
+
+// a, a:hover, a:visited {
+//   color: inherit;
+//   text-decoration: none;
+.c-account {
+  margin-right: 30px;
+  height: 100%;
+  .c-login {
+    margin-top: 4px;
+    height: 100%;
+    img {
+      width: 24px;
+      height: 24px;
+      margin-right: 1em;
+    }
+    span {
+      font-family: FuturaPTMedium;
+      font-weight: bold;
+      font-size: 1.17em;
+      // margin-right: 35px;
+      line-height: 1.2;
+    }
+  }
+}
+.c-logout {
+  /* margin-top: 21em; */
+
+  display: inline-flex;
+  color: $greyish_brown;
+  width: 100%;
+  margin-bottom: 4em;
+  img {
+    cursor: pointer;
+    margin-right: 1.1em;
+    margin-left: 1.83em;
+    width: 18px;
+    height: 18px;
+  }
+  span {
+    cursor: pointer;
+    line-height: 1.5em;
+    font-weight: bold;
+  }
+  span:hover {
+    text-decoration: underline $sun_yellow;
+    color: black;
+  }
+}

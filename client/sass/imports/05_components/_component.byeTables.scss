@@ -1,0 +1,184 @@
+/* ======================================== */
+/* =                                      = */
+/*   schedule - bye team tables             */
+/* =                                      = */
+/* ======================================== */
+
+.c-bye {
+  &__division {
+    min-height: 46px;
+    text-align: left;
+    border: none;
+    outline: none;
+    /* padding: 0px 3.4em 0 1em; */
+    font-family: FuturaPTBold;
+    font-size: 1.15em;
+    color: #4a4a4a;
+    text-transform: none;
+    width: auto;
+    background: none;
+    margin: 0 0 8px 0;
+    align-items: center;
+  }
+
+  .l-divisionContainer {
+    padding-bottom: 38px;
+    border-bottom: 1px solid $very_light-pink;
+    margin-bottom: 23px;
+  }
+
+  .l-divisionContainer:last-of-type {
+    border: none;
+    margin-bottom: 10px;
+  }
+
+  &__divTitle {
+    &::before {
+      content: "";
+      background: #ffffff;
+      height: 10px;
+      width: 10px;
+      display: inline-block;
+      border-radius: 100%;
+      vertical-align: initial;
+      margin-right: 0.55em;
+    }
+
+    @include component_labels;
+    padding: 1.75em 0 1.25em;
+
+    &:nth-child(6n + 3) {
+      &.c-bye__divTitle::before {
+        background: #fff;
+        border: 1px solid #979797;
+      }
+    }
+
+    &:nth-child(6n + 7) {
+      &.c-bye__divTitle::before {
+        background: #ff20f4;
+      }
+    }
+
+    &:nth-child(6n + 11) {
+      &.c-bye__divTitle::before {
+        background: #2092ff;
+      }
+    }
+
+    &:nth-child(6n + 15) {
+      &.c-bye__divTitle::before {
+        background: #20f6ff;
+      }
+    }
+
+    &:nth-child(6n + 19) {
+      &.c-bye__divTitle::before {
+        background: #20ffb7;
+      }
+    }
+
+    &:nth-child(6n + 23) {
+      &.c-bye__divTitle::before {
+        background: #91ff20;
+      }
+    }
+  }
+
+  .c-bye__dateTime {
+    height: 36px;
+    font-family: FuturaPTBold;
+    font-size: 1.15em;
+    color: #9b9c9b;
+  }
+
+  .c-bye__setsPoints {
+    @include component_labels;
+  }
+
+  .c-byeTable {
+    max-width: 830px;
+    width: 78.5vw;
+    margin-bottom: 21px;
+    margin-left: 1px;
+  }
+
+  .c-byeTable__header {
+    height: 31px;
+    color: $brown_grey;
+    font-family: FuturaPTBold;
+    font-size: 1em;
+    font-weight: bold;
+    line-height: 2.5em;
+    border-bottom: 1px solid $very_light-pink;
+    display: flex;
+    flex-flow: row;
+
+    .c-byeTable__header__item {
+      width: 320px;
+    }
+
+    .c-byeTable__header__item:last-of-type {
+      width: 165px;
+    }
+  }
+
+  .c-byeTable__listing {
+    height: 48px;
+    color: $greyish_brown;
+    font-family: FuturaPTDemi;
+    font-size: 1em;
+    font-weight: 500;
+    display: flex;
+    padding: 12px 0;
+
+    img {
+      width: 24px;
+      height: 24px;
+      vertical-align: middle;
+      margin-right: 12px;
+    }
+
+    .c-byeTable__listing__item {
+      width: 320px;
+      display: flex;
+      line-height: 24px;
+      color: $greyish_brown;
+      font-family: FuturaPTDemi;
+      font-size: 1em;
+      font-weight: 500;
+      padding: 0 8px 0 0;
+      white-space: nowrap;
+      overflow: hidden;
+
+      svg {
+        /* padding-top: 2px; */
+      }
+
+      // button.e-bye {
+      //   padding: 1px 38.5px;
+      //   border-radius: 15px 15px 15px 15px;
+      //   border: 1px solid $sun_yellow;
+      //   background: $white;
+      //   height: 24px;
+      //   width: 156px;
+      // }
+    }
+
+    /* .c-byeTable__listing__item.c-statusIndicator {
+      display: block;
+    } */
+    .c-byeTable__listing__item:last-of-type {
+      width: 165px;
+      padding: 0;
+      display: flex;
+
+      .c-byeTable__listing__cell {
+        color: $greyish_brown;
+        font-family: FuturaPTDemi;
+        font-size: 1em;
+        font-weight: 500;
+      }
+    }
+  }
+}

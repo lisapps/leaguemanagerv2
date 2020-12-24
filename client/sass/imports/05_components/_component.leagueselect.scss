@@ -1,0 +1,157 @@
+/* ======================================== */
+/* =                                      = */
+/*   League Selector	         			        */
+/* =                                      = */
+/* ======================================== */
+
+.s-leagueChooser {
+  margin: 23px 0 0 25px;
+  display: flex;
+  padding-bottom: 5px;
+  margin-bottom: 12px;
+  width: 40vw;
+  height: min-content;
+
+  &--text {
+    .e-leagueImage {
+      display: inline-flex;
+      margin-top: 6px;
+
+      // img {
+      //   width: 36px;
+      //   height: 36px;
+      //   max-width: 36px;
+      //   border-radius: 50%;
+      // }
+    }
+
+    #e-txt__league {
+      display: inline-flex;
+      background-color: transparent;
+      border-radius: 0px !important;
+      border: none;
+      -webkit-appearance: none;
+      color: $greyish_brown;
+      font-family: FuturaPTMedium;
+      font-size: 1.2em;
+      font-weight: bold;
+      height: 47px;
+      line-height: normal;
+      letter-spacing: 0;
+      padding: 0.5em 1.5em 0.5em 1em;
+      width: auto;
+    }
+  }
+
+  .e-leagueImage {
+    display: inline-flex;
+    margin-top: 6px;
+
+    img {
+      width: 36px;
+      height: 36px;
+      max-width: 36px;
+      border-radius: 50%;
+    }
+  }
+
+  #e-btn__league {
+    cursor: pointer;
+    display: inline-flex;
+    background-color: transparent;
+    border-radius: 0px !important;
+    border: none;
+    -webkit-appearance: none;
+    color: $greyish_brown;
+    font-family: FuturaPTMedium;
+    font-size: 1.2em;
+    font-weight: bold;
+    height: 47px;
+    line-height: normal;
+    letter-spacing: 0;
+    padding: 0.5em 1.5em 0.5em 1em;
+    background: url("../public/images/icons/chevron-down.svg") no-repeat right
+      16px;
+    width: auto;
+
+    .c-leagueSelector__option {
+      background-size: 4px 8px;
+      margin: 0;
+    }
+  }
+
+  #e-btn__league::after,
+  #e-btn__league:hover::after {
+    background: transparent;
+  }
+
+  #e-btn__league:hover {
+    background-color: transparent;
+  }
+
+  #e-league__dropdown {
+    position: absolute;
+    margin-top: 43px;
+    padding: 0px 5px;
+    right: -14px;
+    box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.2);
+    border: 1px solid $very_light-pink;
+    z-index: 5;
+    cursor: pointer;
+    height: 17.5em;
+    overflow-y: scroll;
+    overflow-x: hidden;
+
+    &::-webkit-scrollbar-track {
+      margin: 10px 0;
+    }
+
+    .selected {
+      background: url(../public/images/icons/tick.svg) no-repeat right 12px;
+      margin-right: 8px;
+    }
+  }
+
+  .e-leagueSelector__option {
+    list-style: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+
+    &:hover {
+      background-color: $very_light-pink;
+
+      &.selected {
+        background-color: transparent;
+      }
+    }
+  }
+
+  #l-league__dropdown__container {
+    position: relative;
+
+    &::before {
+      position: absolute;
+      right: 14px;
+      top: 35px;
+      width: 0;
+      height: 0;
+      content: url(../public/images/icons/icon-tri-top.svg);
+      z-index: 2;
+      visibility: visible;
+      z-index: 7;
+    }
+  }
+}
+
+//- separate layout for home page (dashboard) where it's inside an accordion
+.e-leagueImage {
+  display: inline-flex;
+  margin-top: 7px;
+
+  #e-leagueIcon {
+    width: 36px;
+    height: 36px;
+  }
+}

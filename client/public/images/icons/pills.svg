@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>icon/pills</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="0%" y1="0%" x2="100%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#FFD51D" offset="0%"></stop>
+            <stop stop-color="#F7981F" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="94.5207868%" y1="100%" x2="0%" y2="0%" id="linearGradient-2">
+            <stop stop-color="#FFD521" offset="0%"></stop>
+            <stop stop-color="#FFEC42" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="100%" y1="100%" x2="0%" y2="11.4460735%" id="linearGradient-3">
+            <stop stop-color="#FFD521" offset="0%"></stop>
+            <stop stop-color="#FFEC42" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="icon/pills" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Pills" transform="translate(4.000000, 8.000000)">
+            <path d="M3.11111111,5.25083612 L3.11111111,4.62393162 C3.11111111,4.19437682 3.45933408,3.84615385 3.88888889,3.84615385 L10.1111111,3.84615385 C10.5406659,3.84615385 10.8888889,4.19437682 10.8888889,4.62393162 L10.8888889,5.25083612 L11,5.25083612 C12.6568542,5.25083612 14,6.59398187 14,8.25083612 L14,17.6666667 C14,18.9553311 12.9553311,20 11.6666667,20 L2.33333333,20 C1.04466892,20 1.57815875e-16,18.9553311 0,17.6666667 L0,8.25083612 C-2.02906125e-16,6.59398187 1.34314575,5.25083612 3,5.25083612 L3.11111111,5.25083612 Z" id="Combined-Shape" fill="url(#linearGradient-1)"></path>
+            <rect id="Rectangle" fill="url(#linearGradient-2)" x="1.55555556" y="0" width="10.8888889" height="4.61538462"></rect>
+            <path d="M13.2222222,9.61538462 L0.777777778,9.61538462" id="Path-2" stroke="#FFFFFF" stroke-width="0.777777778"></path>
+            <path d="M10.8888889,5 L3.11111111,5" id="Path-2" stroke="#D8D8D8" stroke-width="0.777777778"></path>
+            <path d="M3.5,0.769230769 L3.5,0 L3.5,0.769230769 Z" id="Path-2" stroke="#333333" stroke-width="0.777777778" stroke-linecap="round"></path>
+            <path d="M10.5,0.769230769 L10.5,0 L10.5,0.769230769 Z" id="Path-2" stroke="#333333" stroke-width="0.777777778" stroke-linecap="round"></path>
+            <path d="M7.38888889,0.769230769 L7.38888889,0 L7.38888889,0.769230769 Z" id="Path-2" stroke="#333333" stroke-width="0.777777778" stroke-linecap="round"></path>
+            <path d="M13.2222222,15.7692308 L0.777777778,15.7692308" id="Path-2" stroke="#FFFFFF" stroke-width="0.777777778"></path>
+        </g>
+        <g id="Pills" transform="translate(21.000000, 5.000000)">
+            <path d="M2.0001417,3 C2.00004742,2.99623342 2,2.99245521 2,2.98866592 L2,1.55982906 C2,1.31436917 2.19898456,1.11538462 2.44444444,1.11538462 L5.55555556,1.11538462 C5.80101544,1.11538462 6,1.31436917 6,1.55982906 L6,2.98866592 C6,2.99245521 5.99995258,2.99623342 5.9998583,3 C7.1045695,3 8,3.8954305 8,5 L8,9.66666667 C8,10.4030463 7.40304633,11 6.66666667,11 L1.33333333,11 C0.596953667,11 -1.13374613e-13,10.4030463 -1.13464793e-13,9.66666667 L-1.13686838e-13,5 C-1.13822108e-13,3.8954305 0.8954305,3 2,3 Z" id="Combined-Shape" fill="url(#linearGradient-3)"></path>
+            <path d="M1.44358995,-2.33146835e-14 L6.55470106,-2.33146835e-14 C6.80016095,-2.33597738e-14 6.99914551,0.198984556 6.99914551,0.444444444 L6.99914551,1.55555556 C6.99914551,1.80101544 6.80016095,2 6.55470106,2 L1.44358995,2 C1.19813006,2 0.999145508,1.80101544 0.999145508,1.55555556 L0.999145508,0.444444444 C0.999145508,0.198984556 1.19813006,-2.32695933e-14 1.44358995,-2.33146835e-14 Z" id="Rectangle" fill="url(#linearGradient-1)"></path>
+        </g>
+        <polygon id="Rectangle" fill="#FFFFFF" points="23 11 27 11 27 13 23 13"></polygon>
+    </g>
+</svg>

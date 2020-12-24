@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>icon/block</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="0%" y1="100%" x2="100%" y2="0%" id="linearGradient-1">
+            <stop stop-color="#FFD51D" offset="0%"></stop>
+            <stop stop-color="#F7981F" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="100%" y1="100%" x2="0%" y2="2.13601879%" id="linearGradient-2">
+            <stop stop-color="#FFD521" offset="0%"></stop>
+            <stop stop-color="#FFEC42" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="icon/block" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M8.56097584,14.0022712 L13.5595673,15.1014657 L17.5717743,12 L20.597165,13.9973981 L21.4949319,13.9982042 C22.5997913,13.9991963 23.4949311,14.8951401 23.4949311,16 C23.4949311,17.1045695 22.5995006,18 21.4949311,18 L20.597165,18 L17.5717743,16 L13.5595673,19 L8.56097584,17.8512467 L8.56097584,20.2927626 C8.56097584,20.683359 8.24433488,21 7.85373846,21 C7.40405796,21 6.97601799,20.8069429 6.67836366,20.4698754 L3.31286805,16.6587469 C2.97877926,16.2804207 2.97898568,15.7124375 3.31334938,15.3343542 L6.67797845,11.5297842 C6.97590324,11.1929043 7.40401942,11 7.85373846,11 C8.24433488,11 8.56097584,11.316641 8.56097584,11.7072374 L8.56097584,14.0022712 Z" id="Combined-Shape" fill="url(#linearGradient-1)" transform="translate(13.278685, 16.000000) rotate(-180.000000) translate(-13.278685, -16.000000) "></path>
+        <rect id="Rectangle" fill="url(#linearGradient-2)" transform="translate(27.000000, 16.000000) rotate(-270.000000) translate(-27.000000, -16.000000) " x="16" y="14" width="22" height="4"></rect>
+        <rect id="Rectangle" fill="#FFFFFF" x="19" y="12" width="1" height="1"></rect>
+        <rect id="Rectangle" fill="#4A4A4A" transform="translate(26.500000, 27.500000) rotate(-270.000000) translate(-26.500000, -27.500000) " x="26" y="25" width="1" height="5"></rect>
+        <rect id="Rectangle" fill="#4A4A4A" transform="translate(26.500000, 4.500000) rotate(-270.000000) translate(-26.500000, -4.500000) " x="26" y="2" width="1" height="5"></rect>
+    </g>
+</svg>

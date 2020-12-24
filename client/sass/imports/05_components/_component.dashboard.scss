@@ -1,0 +1,85 @@
+/* ======================================== */
+/* =                                      = */
+/*   Dashboard CTA Component                */
+/* =                                      = */
+/* ======================================== */
+
+.c-dashboardLink {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  width: 15em;
+  height: 10em;
+  padding: 2.5em 0;
+  margin-bottom: 3.2em;
+  cursor: pointer;
+
+  &:hover {
+    background-color: white;
+    box-shadow: 0 0.5px 1px 0 rgba(0, 0, 0, 0.1);
+  }
+
+  a {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    text-decoration: none;
+  }
+
+  .c-dashboardLink__icon {
+    width: 36px;
+    height: 36px;
+    margin: 0 0 24.5px;
+
+    @include for-size(phone-only) {
+      width: 24px;
+      height: 24px;
+      margin: 0 0.3em 7px;
+    }
+  }
+
+  .c-dashboardLink__text {
+    @include large_body;
+    text-transform: uppercase;
+    display: flex;
+
+    @include for-size(phone-only) {
+      font-size: .84em;
+    }
+  }
+
+  &--locked {
+    background-image: url(../public/images/icons/icon-locked.svg);
+    background-repeat: no-repeat;
+    background-position: 98% 3%;
+    a {
+      cursor: default;
+    }
+    &:hover {
+      background-color: white;
+      box-shadow: 0 0.5px 1px 0 rgba(0, 0, 0, 0.1);
+      cursor: default;
+    }
+  }
+
+  .e-plustext {
+    font-family: FuturaPTMedium;
+    font-size: 1em;
+    margin-right: 5px;
+    text-transform: uppercase;
+    display: flex;
+  }
+
+  @include for-size(phone-only) {
+    display: block;
+    align-items: unset;
+    width: auto;
+    padding: 2em 2em 2em 0;
+  }
+}
+
+#dashboard-btns {
+  @include for-size(phone-only) {
+    display: block;
+  }
+}

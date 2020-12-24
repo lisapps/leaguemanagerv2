@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 59.1 (101010) - https://sketch.com -->
+    <title>BDA88F23-37F9-4D04-A90D-1A76FF77B7CE</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <linearGradient x1="2.98179256%" y1="84.2668806%" x2="84.1157501%" y2="0%" id="linearGradient-1">
+            <stop stop-color="#FFD51D" offset="0%"></stop>
+            <stop stop-color="#F7981F" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="34.8830461%" y1="100%" x2="65.1169539%" y2="0%" id="linearGradient-2">
+            <stop stop-color="#FFD51D" offset="0%"></stop>
+            <stop stop-color="#F7981F" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="100%" y1="50.4132231%" x2="0%" y2="49.6044299%" id="linearGradient-3">
+            <stop stop-color="#FFD521" offset="0%"></stop>
+            <stop stop-color="#FFEC42" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Concepts-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Create-Location-Blank" transform="translate(-360.000000, -395.000000)">
+            <g id="bar/line_item_selected" transform="translate(344.000000, 388.000000)">
+                <g id="Group" transform="translate(16.000000, 3.500000)">
+                    <g id="icon/overall" transform="translate(0.000000, 3.000000)">
+                        <g id="Group" transform="translate(3.125000, 2.875000)">
+                            <path d="M2.20769249,13.4959881 L3.43973364,10.567122 C3.71750129,9.90679966 4.36405679,9.47734536 5.08042291,9.47734536 L5.21121869,9.47734536 C6.57076692,9.47734536 7.84019241,8.7972668 8.59336055,7.66540589 L10.1698375,5.29627663 C10.4566722,4.86522154 10.3397585,4.2832569 9.90870338,3.99642223 C9.4776483,3.70958755 8.89568366,3.8265013 8.60884899,4.25755638 L7.032372,6.62668564 C6.62681993,7.23614921 5.94328312,7.60234536 5.21121869,7.60234536 L5.08042291,7.60234536 C3.60943228,7.60234536 2.28179121,8.48418948 1.7114214,9.8400994 L0.47938026,12.7689655 C0.27861852,13.2462258 0.502764846,13.7958712 0.980025091,13.9966329 C1.45728534,14.1973947 2.00693075,13.9732483 2.20769249,13.4959881 Z" id="Path-9" fill="url(#linearGradient-1)" fill-rule="nonzero"></path>
+                            <path d="M11.5863923,0.683785777 C11.830515,0.683785777 12.0284156,0.881686376 12.0284156,1.12580914 L12.0284156,6.49176242 C12.0284156,6.73588518 11.830515,6.93378578 11.5863923,6.93378578 C11.3053419,6.93378578 11.037817,6.81312506 10.851783,6.60245792 L8.967706,4.46890602 C8.6336172,4.09057977 8.63382362,3.52259657 8.96818732,3.14451326 L10.8515423,1.01490087 C11.0377452,0.804350967 11.3053179,0.683785777 11.5863923,0.683785777 Z" id="Combined-Shape" fill="url(#linearGradient-2)" transform="translate(10.310123, 3.808786) rotate(-225.000000) translate(-10.310123, -3.808786) "></path>
+                            <path d="M8.21281646,3.125 C8.04022747,3.125 7.90031646,2.98508898 7.90031646,2.8125 C7.90031646,2.63991102 8.04022747,2.5 8.21281646,2.5 C8.38540544,2.5 8.52531646,2.63991102 8.52531646,2.8125 C8.52531646,2.98508898 8.38540544,3.125 8.21281646,3.125 Z" id="Rectangle" fill="#FFFFFF" transform="translate(8.212816, 2.812500) rotate(-45.000000) translate(-8.212816, -2.812500) "></path>
+                        </g>
+                        <g id="Group-2" transform="translate(10.000000, 18.500000) rotate(-90.000000) translate(-10.000000, -18.500000) translate(9.375000, 10.687500)">
+                            <polygon id="Rectangle" fill="url(#linearGradient-3)" transform="translate(0.625000, 7.812500) rotate(-270.000000) translate(-0.625000, -7.812500) " points="-6.25 7.1875 7.5 7.1875 7.5 8.4375 -6.25 8.4375"></polygon>
+                            <polygon id="Rectangle" fill="#4A4A4A" transform="translate(0.625000, 15.000000) rotate(-270.000000) translate(-0.625000, -15.000000) " points="0.3125 14.375 0.9375 14.375 0.9375 15.625 0.3125 15.625"></polygon>
+                            <polygon id="Rectangle" fill="#4A4A4A" transform="translate(0.625000, 0.625000) rotate(-270.000000) translate(-0.625000, -0.625000) " points="0.3125 -1.11022302e-16 0.9375 -1.11022302e-16 0.9375 1.25 0.3125 1.25"></polygon>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

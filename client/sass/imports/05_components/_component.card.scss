@@ -1,0 +1,136 @@
+/* ======================================== */
+/* =                                      = */
+/*   Content cards in page blocks           */
+/* =                                      = */
+/* ======================================== */
+
+.c-card {
+  padding: 5px 1em;
+  background: $white;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2);
+
+  &__xxs {
+    width: 140px;
+  }
+
+  &__xs {
+    min-width: 200px;
+    max-width: 248px;
+    width: 20vw;
+    height: 100px;
+  }
+
+  &__sm {
+    min-width: 240px;
+    max-width: 288px;
+    width: 28.1vw;
+    height: 100px;
+    padding: 0;
+  }
+
+  &__md {
+    // width: 30em;
+    // max-width: 379px;
+    height: fit-content;
+
+    @include for-size(phone-only) {
+      width: 54vw;
+      margin-bottom: 1em;
+    }
+
+    @include for-size(tablet-landscape-up) {
+      width: 24.6em;
+      max-width: 360px;
+    }
+
+    @include for-size(desktop-up) {
+      width: 24.6em;
+      // max-width: 379px;
+    }
+  }
+
+  &__lg {
+    width: 53.5em;;
+    max-width: 812px;
+
+    @include for-size(phone-only) {
+      width: 79.4vw!important;
+      max-width: 78vw;
+      margin-bottom: 1em;
+    }
+
+    .c-card__header {
+      height: 31px;
+      color: $brown_grey;
+      font-family: FuturaPTBold;
+      font-size: 1em;
+      font-weight: bold;
+      line-height: 3.3em;
+      margin-left: 1em;
+      margin-right: 1em;
+      border-bottom: 1px solid $very_light-pink;
+      display: flex;
+      flex-flow: row;
+
+      .c-card__column {
+        width: 153px;
+      }
+
+      .c-card__column:last-of-type {
+        width: 170px;
+      }
+    }
+
+    .c-card__listing {
+      height: 48px;
+      color: $greyish_brown;
+      font-family: FuturaPT-Demi;
+      font-size: 1em;
+      font-weight: 500;
+      display: flex;
+      padding: 5px 12px;
+
+      img {
+        width: 24px;
+        height: 24px;
+        vertical-align: middle;
+        margin-right: 12px;
+      }
+
+      .c-card__column {
+        width: 153px;
+        line-height: 37px;
+
+        .c-card__cell {
+          color: $greyish_brown;
+          font-family: FuturaPTDemi;
+          font-size: 1em;
+          font-weight: 500;
+        }
+      }
+
+      .c-card__column:last-of-type {
+        width: 170px;
+
+        .c-card__cell {
+          color: $greyish_brown;
+          font-family: FuturaPTDemi;
+          font-size: 1em;
+          font-weight: 500;
+        }
+      }
+
+      &--editable {
+        border-bottom: 1px solid $very_light-pink;
+
+        &:last-of-type {
+          border-bottom: none;
+        }
+      }
+    }
+  }
+
+  // @include for-size(phone-only) {
+  //   width: 54vw;
+  // }
+}

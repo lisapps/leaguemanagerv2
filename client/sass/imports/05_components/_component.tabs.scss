@@ -1,0 +1,69 @@
+/* ======================================== */
+/* =                                      = */
+/*   Tabs                                   */
+/* =                                      = */
+/* ======================================== */
+
+.l-tabcontainer {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 0 19px;
+  padding: 0;
+
+  /* .c-teamsTab,
+  .c-playersTab {
+    // display: flex;
+    // flex-wrap: wrap;
+  } */
+}
+.tab {
+  // width: 72em;
+  // max-width: 832px;
+}
+
+.e-tabBtn {
+  color: $brown_grey;
+  font-size: 1.33em;
+  font-family: FuturaPTBold;
+  height: 29px;
+  letter-spacing: 0;
+  text-align: center;
+  margin-top: 32px;
+  width: 37.012vw;
+  max-width: 379px;
+  border-bottom: 2px solid #a0a0a0;
+  cursor: pointer;
+  display: inline-block;
+  list-style: none;
+  line-height: 25px;
+
+  &:hover {
+    border-bottom: 2px solid $sun-yellow;
+    color: $greyish_brown;
+  }
+
+  &.currentTab {
+    color: $greyish_brown;
+    font-family: FuturaPTBold;
+    font-size: 1.33em;
+    font-weight: bold;
+    height: 29px;
+    letter-spacing: 0;
+    text-align: center;
+    margin-top: 32px;
+    width: 37.012vw;
+    max-width: 379px;
+    display: inline-block;
+    list-style: none;
+    border-bottom: 2px solid $sun-yellow;
+    cursor: default;
+  }
+  &.u-locked {
+    cursor: default;
+    border-bottom: 2px solid $very_light-pink;
+    background: url("../public/images/icons/icon-locked.svg") no-repeat 98% 6px;
+    &:hover {
+      color: $brown_grey;
+    }
+  }
+}
